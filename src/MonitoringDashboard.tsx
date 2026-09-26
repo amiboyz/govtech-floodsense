@@ -861,6 +861,7 @@ export function MonitoringDashboard({
               <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '6px', padding: '8px' }}>
                 <span style={{ fontSize: '9.5px', color: '#64748b', display: 'block' }}>GANGGUAN USAHA (BI)</span>
                 <strong style={{ fontSize: '13px', color: '#0f172a' }}>
+                  {isMitigated 
                   {financialExposure.net_downtime_days != null
                     ? `${(financialExposure.net_downtime_days * (isMitigated ? (1 - reductionPct / 100) : 1)).toFixed(1)} Hari`
                     : isMitigated 
@@ -868,6 +869,7 @@ export function MonitoringDashboard({
                     : `${financialExposure.estimated_downtime_days} Hari`}
                 </strong>
                 <span style={{ fontSize: '9px', color: '#64748b', display: 'block' }}>
+                  Downtime operasional
                   {financialExposure.transit_downtime_mitigation_pct ? (
                     <span style={{ color: '#16a34a', fontWeight: 600 }}>Net hemat -{financialExposure.transit_downtime_mitigation_pct}% via transit</span>
                   ) : 'Downtime operasional'}
@@ -1204,6 +1206,7 @@ export function MonitoringDashboard({
     async function init() {
       setLoading(true);
       try {
+        const [sumRes, tmaRes, rainRes, invRes, projRes, repRes, infraRes, rivRes, thRes] = await Promise.allSettled([
         const [sumRes, tmaRes, rainRes, invRes, projRes, repRes, infraRes, rivRes, thRes, transitRes] = await Promise.allSettled([
           fetch('/api/v1/monitoring/summary').then((r) => r.json()),
           fetch('/api/v1/monitoring/tma').then((r) => r.json()),
@@ -2450,6 +2453,7 @@ export function MonitoringDashboard({
                     </CircleMarker>
                   ))}
 
+                {/* 9. Arbitrary Custom Clicked Location (Evaluasi Spasial Bebas) */}
                 {/* 9. Simpul Transit (MRT, LRT, TransJakarta BRT) */}
                 {layerTransit &&
                   transitStations.map((ts) => {
@@ -2674,9 +2678,25 @@ export function MonitoringDashboard({
                   </>
                 )}
 
+                {/* Connectivity line from selected project to its nearest TMA station */}
                 {/* Connectivity line from selected project to its nearest TMA station and Transit station */}
                 {selectedEntity?.type === 'project' &&
                   selectedEntity.data.latitude &&
+                  selectedEntity.data.longitude &&
+                  selectedEntity.data.nearest_tma && (
+                    (() => {
+                      const tmaStation = tmaList.find((s) => s.name === selectedEntity.data.nearest_tma?.name);
+                      if (!tmaStation) return null;
+                      return (
+                        <Polyline
+                          positions={[
+                            [selectedEntity.data.latitude!, selectedEntity.data.longitude!],
+                            [tmaStation.latitude, tmaStation.longitude],
+                          ]}
+                          pathOptions={{ color: '#d97706', dashArray: '6 4', weight: 2.5 }}
+                        />
+                      );
+                    })()
                   selectedEntity.data.longitude && (
                     <>
                       {selectedEntity.data.nearest_tma && (() => {
@@ -4689,6 +4709,7 @@ export function MonitoringDashboard({
                     </td>
                     <td style={{ width: '25%', color: '#475569', fontWeight: 700 }}>Potensi Gangguan Usaha</td>
                     <td style={{ width: '25%', fontWeight: 700 }}>
+                      {printData.financial?.estimated_downtime_days ?? 0.5} Hari Operasional
                       {printData.financial?.net_downtime_days ?? printData.financial?.estimated_downtime_days ?? 0.5} Hari Operasional
                       {printData.financial?.transit_downtime_mitigation_pct ? (
                         <span style={{ fontSize: '9px', color: '#16a34a', display: 'block' }}>
@@ -4717,9 +4738,11 @@ export function MonitoringDashboard({
               </table>
             </div>
 
+            {/* Checklist Mitigasi Rekayasa Sipil */}
             {/* Checklist Mitigasi Rekayasa Sipil & Kebijakan Transportasi */}
             <div style={{ border: '1px solid #cbd5e1', borderRadius: '6px', padding: '12px', marginBottom: '16px' }}>
               <h3 style={{ margin: '0 0 6px', fontSize: '12px', fontWeight: 800, color: '#0f172a' }}>
+                🏗️ Rekomendasi Mitigasi Bangunan untuk Investor & Bankability
                 🏗️ Rekomendasi Mitigasi Bangunan & Aksesibilitas untuk Bankability
               </h3>
               <ul style={{ margin: '0', paddingLeft: '18px', fontSize: '10px', color: '#334155', lineHeight: 1.5 }}>
