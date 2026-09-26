@@ -1,0 +1,49 @@
+{
+  "name": "floodsense-investment-resilience",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c cyan,green \"tsx watch server/index.ts\" \"vite\"",
+    "dev:api": "tsx watch server/index.ts",
+    "dev:web": "vite",
+    "build": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.node.json --noEmit && tsc -p tsconfig.server.json && vite build",
+    "start": "tsx server/index.ts",
+    "stop": "kill $(lsof -t -i:8787 -i:5173 2>/dev/null) 2>/dev/null || true",
+    "db:migrate": "tsx server/cli/migrate.ts",
+    "db:audit-source": "tsx server/cli/audit-source.ts",
+    "db:import-investments": "tsx server/cli/import-investments.ts",
+    "db:import-rivers": "tsx server/cli/import-cilici-datasungai.ts",
+    "model:train": "tsx server/cli/train-models.ts",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "clsx": "latest",
+    "cors": "latest",
+    "csv-parse": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "leaflet": "latest",
+    "lucide-react": "latest",
+    "mysql2": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-leaflet": "latest",
+    "recharts": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/leaflet": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "concurrently": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}

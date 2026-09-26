@@ -1,0 +1,940 @@
+[
+  {
+    "id": 1,
+    "name": "Monumen Nasional",
+    "category": "A",
+    "latitude": -6.175211,
+    "longitude": 106.827185
+  },
+  {
+    "id": 2,
+    "name": "Gedung DPRMPR RI",
+    "category": "A",
+    "latitude": -6.208777,
+    "longitude": 106.799898
+  },
+  {
+    "id": 3,
+    "name": "Istana Merdeka",
+    "category": "A",
+    "latitude": -6.170026,
+    "longitude": 106.824164
+  },
+  {
+    "id": 4,
+    "name": "Bandara Udara Internasional Soekarno-Hatta",
+    "category": "A",
+    "latitude": -6.12749,
+    "longitude": 106.653936
+  },
+  {
+    "id": 5,
+    "name": "Depo Pertamina Plumpang",
+    "category": "A",
+    "latitude": -6.135049,
+    "longitude": 106.893527
+  },
+  {
+    "id": 6,
+    "name": "MRT Bundaran HI",
+    "category": "A",
+    "latitude": -6.191827,
+    "longitude": 106.82298
+  },
+  {
+    "id": 7,
+    "name": "MRT Dukuh Atas BNI",
+    "category": "A",
+    "latitude": -6.200704,
+    "longitude": 106.822822
+  },
+  {
+    "id": 8,
+    "name": "MRT Setiabudi Astra",
+    "category": "A",
+    "latitude": -6.208994,
+    "longitude": 106.821751
+  },
+  {
+    "id": 9,
+    "name": "MRT Bendungan Hilir",
+    "category": "A",
+    "latitude": -6.214914,
+    "longitude": 106.81792
+  },
+  {
+    "id": 10,
+    "name": "MRT Istora Mandiri",
+    "category": "A",
+    "latitude": -6.222275,
+    "longitude": 106.808601
+  },
+  {
+    "id": 11,
+    "name": "MRT Senayan",
+    "category": "A",
+    "latitude": -6.226655,
+    "longitude": 106.80248
+  },
+  {
+    "id": 12,
+    "name": "MRT ASEAN",
+    "category": "A",
+    "latitude": -6.238695,
+    "longitude": 106.798399
+  },
+  {
+    "id": 13,
+    "name": "MRT Blok M BCA",
+    "category": "A",
+    "latitude": -6.244324,
+    "longitude": 106.79812
+  },
+  {
+    "id": 14,
+    "name": "MRT Blok A",
+    "category": "A",
+    "latitude": -6.255705,
+    "longitude": 106.79713
+  },
+  {
+    "id": 15,
+    "name": "MRT Haji Nawi",
+    "category": "A",
+    "latitude": -6.266658,
+    "longitude": 106.797309
+  },
+  {
+    "id": 16,
+    "name": "MRT Cipete Raya",
+    "category": "A",
+    "latitude": -6.278327,
+    "longitude": 106.797299
+  },
+  {
+    "id": 17,
+    "name": "MRT Fatmawati",
+    "category": "A",
+    "latitude": -6.292354,
+    "longitude": 106.792499
+  },
+  {
+    "id": 18,
+    "name": "MRT Lebak Bulus Grab",
+    "category": "A",
+    "latitude": -6.289175,
+    "longitude": 106.774909
+  },
+  {
+    "id": 19,
+    "name": "Kedutaan Besar Republik Islam Afghanistan",
+    "category": "A",
+    "latitude": -6.201035,
+    "longitude": 106.829677
+  },
+  {
+    "id": 20,
+    "name": "Kedutaan Besar Algeria",
+    "category": "A",
+    "latitude": -6.229964,
+    "longitude": 106.833709
+  },
+  {
+    "id": 21,
+    "name": "Kedutaan Besar Argentina",
+    "category": "A",
+    "latitude": -6.185479,
+    "longitude": 106.822689
+  },
+  {
+    "id": 22,
+    "name": "Kedutaan Besar Armenia",
+    "category": "A",
+    "latitude": -6.229578,
+    "longitude": 106.829991
+  },
+  {
+    "id": 23,
+    "name": "Kedutaan Besar Persemakmuran Australia",
+    "category": "A",
+    "latitude": -6.23198,
+    "longitude": 106.834134
+  },
+  {
+    "id": 24,
+    "name": "Kedutaan Besar Austria",
+    "category": "A",
+    "latitude": -6.201662,
+    "longitude": 106.8397
+  },
+  {
+    "id": 25,
+    "name": "Kedutaan Besar Azerbaijan",
+    "category": "A",
+    "latitude": -6.226389,
+    "longitude": 106.829552
+  },
+  {
+    "id": 26,
+    "name": "Kedutaan Besar Republik Rakyat Bangladesh",
+    "category": "A",
+    "latitude": -6.22558,
+    "longitude": 106.828492
+  },
+  {
+    "id": 27,
+    "name": "Kedutaan Besar Kerajaan Belgia",
+    "category": "A",
+    "latitude": -6.1956,
+    "longitude": 106.823941
+  },
+  {
+    "id": 28,
+    "name": "Kedutaan Besar Republik Belarus",
+    "category": "A",
+    "latitude": -6.235141,
+    "longitude": 106.834006
+  },
+  {
+    "id": 29,
+    "name": "Kedutaan Besar Bosnia dan Herzegovina",
+    "category": "A",
+    "latitude": -6.210206,
+    "longitude": 106.831561
+  },
+  {
+    "id": 30,
+    "name": "Kedutaan Besar Republik Federasi Brazil",
+    "category": "A",
+    "latitude": -6.22426,
+    "longitude": 106.816802
+  },
+  {
+    "id": 31,
+    "name": "Kedutaan Besar Brunei Darussalam",
+    "category": "A",
+    "latitude": -6.233771,
+    "longitude": 106.83554
+  },
+  {
+    "id": 32,
+    "name": "Kedutaan Besar Republik Bulgaria",
+    "category": "A",
+    "latitude": -6.19907,
+    "longitude": 106.827714
+  },
+  {
+    "id": 33,
+    "name": "Kedutaan Besar Kerajaan Kamboja",
+    "category": "A",
+    "latitude": -6.277581,
+    "longitude": 106.825995
+  },
+  {
+    "id": 34,
+    "name": "Kedutaan Besar Kanada",
+    "category": "A",
+    "latitude": -99.99999999,
+    "longitude": 106.820328
+  },
+  {
+    "id": 35,
+    "name": "Kedutaan Besar Republik Chile",
+    "category": "A",
+    "latitude": -6.199052,
+    "longitude": 106.8235
+  },
+  {
+    "id": 36,
+    "name": "Kedutaan Besar Republik Rakyat China",
+    "category": "A",
+    "latitude": -6.225582,
+    "longitude": 106.825378
+  },
+  {
+    "id": 37,
+    "name": "Kedutaan Besar Kolombia",
+    "category": "A",
+    "latitude": -6.216741,
+    "longitude": 106.816429
+  },
+  {
+    "id": 38,
+    "name": "Kedutaan Besar Kosta Rika",
+    "category": "A",
+    "latitude": -6.205799,
+    "longitude": 10.68215
+  },
+  {
+    "id": 39,
+    "name": "Kedutaan Besar Republik Kroasia",
+    "category": "A",
+    "latitude": -6.22419,
+    "longitude": 106.81656
+  },
+  {
+    "id": 40,
+    "name": "Kedutaan Besar Republik Kuba",
+    "category": "A",
+    "latitude": -6.217995,
+    "longitude": 106.788206
+  },
+  {
+    "id": 41,
+    "name": "Konsulat Kehormatan Republik Siprus",
+    "category": "A",
+    "latitude": -6.225627,
+    "longitude": 106.80472
+  },
+  {
+    "id": 42,
+    "name": "Kedutaan Besar Republik Ceko",
+    "category": "A",
+    "latitude": -6.19115,
+    "longitude": 106.827733
+  },
+  {
+    "id": 43,
+    "name": "Kedutaan Besar Kerajaan Denmark",
+    "category": "A",
+    "latitude": -6.226917,
+    "longitude": 106.826418
+  },
+  {
+    "id": 44,
+    "name": "Kedutaan Besar Timor Leste",
+    "category": "A",
+    "latitude": -6.213766,
+    "longitude": 106.820085
+  },
+  {
+    "id": 45,
+    "name": "Kedutaan Besar Ekuador",
+    "category": "A",
+    "latitude": -6.214815,
+    "longitude": 106.819953
+  },
+  {
+    "id": 46,
+    "name": "Kedutaan Besar Republik Arab Mesir",
+    "category": "A",
+    "latitude": -6.196993,
+    "longitude": 106.832409
+  },
+  {
+    "id": 47,
+    "name": "Kedutaan Besar Ethiopia",
+    "category": "A",
+    "latitude": -6.235936,
+    "longitude": 106.804552
+  },
+  {
+    "id": 48,
+    "name": "Kedutaan Besar Republik Fiji",
+    "category": "A",
+    "latitude": -6.212826,
+    "longitude": 106.820246
+  },
+  {
+    "id": 49,
+    "name": "Kedutaan Besar Finlandia",
+    "category": "A",
+    "latitude": -6.227141,
+    "longitude": 106.826411
+  },
+  {
+    "id": 50,
+    "name": "Kedutaan Besar Perancis",
+    "category": "A",
+    "latitude": -6.188917,
+    "longitude": 106.823453
+  },
+  {
+    "id": 51,
+    "name": "Kedutaan Besar Georgia",
+    "category": "A",
+    "latitude": -6.226468,
+    "longitude": 106.828279
+  },
+  {
+    "id": 52,
+    "name": "Kedutaan Besar Republik Federal Jerman",
+    "category": "A",
+    "latitude": -6.196874,
+    "longitude": 106.823435
+  },
+  {
+    "id": 53,
+    "name": "Kedutaan Besar Yunani",
+    "category": "A",
+    "latitude": -6.217578,
+    "longitude": 106.830724
+  },
+  {
+    "id": 54,
+    "name": "Kedutaan Besar Takhta Suci Vatikan",
+    "category": "A",
+    "latitude": -6.179932,
+    "longitude": 106.83262
+  },
+  {
+    "id": 55,
+    "name": "Kedutaan Besar Hungaria",
+    "category": "A",
+    "latitude": -6.235526,
+    "longitude": 106.827756
+  },
+  {
+    "id": 56,
+    "name": "Kedutaan Besar India",
+    "category": "A",
+    "latitude": -6.233835,
+    "longitude": 999.99999999
+  },
+  {
+    "id": 57,
+    "name": "Kedutaan Besar Iran",
+    "category": "A",
+    "latitude": -6.200467,
+    "longitude": 106.827782
+  },
+  {
+    "id": 58,
+    "name": "Kedutaan Besar Irak",
+    "category": "A",
+    "latitude": -6.192663,
+    "longitude": 106.832772
+  },
+  {
+    "id": 59,
+    "name": "Kedutaan Besar Irlandia",
+    "category": "A",
+    "latitude": -6.214998,
+    "longitude": 106.820125
+  },
+  {
+    "id": 60,
+    "name": "Kedutaan Besar Italia",
+    "category": "A",
+    "latitude": -6.200795,
+    "longitude": 106.839852
+  },
+  {
+    "id": 61,
+    "name": "Kedutaan Besar Jepang",
+    "category": "A",
+    "latitude": -6.191757,
+    "longitude": 106.822424
+  },
+  {
+    "id": 62,
+    "name": "Kedutaan Besar Kerajaan Jordania",
+    "category": "A",
+    "latitude": -6.224442,
+    "longitude": 106.810982
+  },
+  {
+    "id": 63,
+    "name": "Kedutaan Besar Kazakhstan",
+    "category": "A",
+    "latitude": -6.233552,
+    "longitude": 106.828199
+  },
+  {
+    "id": 64,
+    "name": "Kedutaan Besar Korea Utara",
+    "category": "A",
+    "latitude": -6.202941,
+    "longitude": 106.827415
+  },
+  {
+    "id": 65,
+    "name": "Kedutaan Besar Korea Selatan",
+    "category": "A",
+    "latitude": -6.239434,
+    "longitude": 106.832832
+  },
+  {
+    "id": 66,
+    "name": "Kedutaan Besar Kuwait",
+    "category": "A",
+    "latitude": -6.231453,
+    "longitude": 106.831393
+  },
+  {
+    "id": 67,
+    "name": "Kedutaan Besar Laos",
+    "category": "A",
+    "latitude": -6.229911,
+    "longitude": 106.835405
+  },
+  {
+    "id": 68,
+    "name": "Kedutaan Besar Lebanon",
+    "category": "A",
+    "latitude": -6.229629,
+    "longitude": 106.831055
+  },
+  {
+    "id": 69,
+    "name": "Kedutaan Besar Libya",
+    "category": "A",
+    "latitude": -6.231647,
+    "longitude": 106.836482
+  },
+  {
+    "id": 70,
+    "name": "Kedutaan Besar Malaysia",
+    "category": "A",
+    "latitude": -6.224928,
+    "longitude": 106.832233
+  },
+  {
+    "id": 71,
+    "name": "Kedutaan Besar Mexico",
+    "category": "A",
+    "latitude": -6.229416,
+    "longitude": 106.825082
+  },
+  {
+    "id": 72,
+    "name": "Kedutaan Besar Mongolia",
+    "category": "A",
+    "latitude": -6.247549,
+    "longitude": 106.842516
+  },
+  {
+    "id": 73,
+    "name": "Kedutaan Besar Maroko",
+    "category": "A",
+    "latitude": -6.234123,
+    "longitude": 106.827592
+  },
+  {
+    "id": 74,
+    "name": "Kedutaan Besar Republik Mozambik",
+    "category": "A",
+    "latitude": -6.227513,
+    "longitude": 106.830794
+  },
+  {
+    "id": 75,
+    "name": "Kedutaan Besar Republik Myanmar",
+    "category": "A",
+    "latitude": -6.194045,
+    "longitude": 106.825312
+  },
+  {
+    "id": 76,
+    "name": "Kedutaan Besar Kerajaan Belanda",
+    "category": "A",
+    "latitude": -6.234531,
+    "longitude": 106.828317
+  },
+  {
+    "id": 77,
+    "name": "Kedutaan Besar Selandia Baru",
+    "category": "A",
+    "latitude": -6.223654,
+    "longitude": 106.798916
+  },
+  {
+    "id": 78,
+    "name": "Kedutaan Besar Republik Federasi Nigeria",
+    "category": "A",
+    "latitude": -6.23407,
+    "longitude": 106.827744
+  },
+  {
+    "id": 79,
+    "name": "Kedutaan Besar Norwegia",
+    "category": "A",
+    "latitude": -6.227384,
+    "longitude": 106.82678
+  },
+  {
+    "id": 80,
+    "name": "Kedutaan Besar Oman",
+    "category": "A",
+    "latitude": -6.204882,
+    "longitude": 106.837979
+  },
+  {
+    "id": 81,
+    "name": "Kedutaan Besar Republik Islam Pakistan",
+    "category": "A",
+    "latitude": -6.231096,
+    "longitude": 106.825921
+  },
+  {
+    "id": 82,
+    "name": "Kedutaan Besar Palestina",
+    "category": "A",
+    "latitude": -6.202212,
+    "longitude": 106.842878
+  },
+  {
+    "id": 83,
+    "name": "Kedutaan Besar Panama",
+    "category": "A",
+    "latitude": -6.215352,
+    "longitude": 106.820287
+  },
+  {
+    "id": 84,
+    "name": "Kedutaan Besar Papua Nugini",
+    "category": "A",
+    "latitude": -6.228004,
+    "longitude": 106.799544
+  },
+  {
+    "id": 85,
+    "name": "Kedutaan Besar Republik Paraguay",
+    "category": "A",
+    "latitude": -6.231136,
+    "longitude": 106.827252
+  },
+  {
+    "id": 86,
+    "name": "Kedutaan Besar Peru",
+    "category": "A",
+    "latitude": -6.227042,
+    "longitude": 106.826398
+  },
+  {
+    "id": 87,
+    "name": "Kedutaan Besar Republik Filipina",
+    "category": "A",
+    "latitude": -6.199482,
+    "longitude": 106.830449
+  },
+  {
+    "id": 88,
+    "name": "Kedutaan Besar Polandia",
+    "category": "A",
+    "latitude": -6.233697,
+    "longitude": 106.830516
+  },
+  {
+    "id": 89,
+    "name": "Kedutaan Besar Portugal",
+    "category": "A",
+    "latitude": -6.195922,
+    "longitude": 106.828397
+  },
+  {
+    "id": 90,
+    "name": "Kedutaan Besar Qatar",
+    "category": "A",
+    "latitude": -6.234115,
+    "longitude": 106.827448
+  },
+  {
+    "id": 91,
+    "name": "Kedutaan Besar Rumania",
+    "category": "A",
+    "latitude": -6.19803,
+    "longitude": 106.836945
+  },
+  {
+    "id": 92,
+    "name": "Kedutaan Besar Rusia",
+    "category": "A",
+    "latitude": -6.22031,
+    "longitude": 106.831075
+  },
+  {
+    "id": 93,
+    "name": "Kedutaan Besar Republik San Marino",
+    "category": "A",
+    "latitude": -6.200463,
+    "longitude": 106.836123
+  },
+  {
+    "id": 94,
+    "name": "Kedutaan Besar Kerajaan Arab Saudi",
+    "category": "A",
+    "latitude": -6.211799,
+    "longitude": 106.830016
+  },
+  {
+    "id": 95,
+    "name": "Kedutaan Besar Serbia",
+    "category": "A",
+    "latitude": -6.20116,
+    "longitude": 106.828256
+  },
+  {
+    "id": 96,
+    "name": "Kedutaan Besar Singapura",
+    "category": "A",
+    "latitude": -6.233627,
+    "longitude": 106.829766
+  },
+  {
+    "id": 97,
+    "name": "Kedutaan Besar Republik Slowakia",
+    "category": "A",
+    "latitude": -6.196094,
+    "longitude": 106.832254
+  },
+  {
+    "id": 98,
+    "name": "Konsulat Jendral Kepulauan Solomon",
+    "category": "A",
+    "latitude": -6.261113,
+    "longitude": 106.808495
+  },
+  {
+    "id": 99,
+    "name": "Kedutaan Besar Republik Somalia",
+    "category": "A",
+    "latitude": -6.222248,
+    "longitude": 106.788072
+  },
+  {
+    "id": 100,
+    "name": "Kedutaan Besar Republik Afrika Selatan",
+    "category": "A",
+    "latitude": -6.2174,
+    "longitude": 106.812962
+  },
+  {
+    "id": 101,
+    "name": "Kedutaan Besar Spanyol",
+    "category": "A",
+    "latitude": -6.187295,
+    "longitude": 106.825369
+  },
+  {
+    "id": 102,
+    "name": "Kedutaan Besar Republik Sosialis Demokrat Sri Lanka",
+    "category": "A",
+    "latitude": -6.200092,
+    "longitude": 106.84496
+  },
+  {
+    "id": 103,
+    "name": "Kedutaan Besar Sudan",
+    "category": "A",
+    "latitude": -6.22996,
+    "longitude": 106.836277
+  },
+  {
+    "id": 104,
+    "name": "Kedutaan Besar Suriname",
+    "category": "A",
+    "latitude": -6.252806,
+    "longitude": 106.806542
+  },
+  {
+    "id": 105,
+    "name": "Kedutaan Besar Swedia",
+    "category": "A",
+    "latitude": -6.22701,
+    "longitude": 106.826245
+  },
+  {
+    "id": 106,
+    "name": "Kedutaan Besar Swiss",
+    "category": "A",
+    "latitude": -6.232642,
+    "longitude": 106.831482
+  },
+  {
+    "id": 107,
+    "name": "Kedutaan Besar Suriah",
+    "category": "A",
+    "latitude": -6.227139,
+    "longitude": 106.830991
+  },
+  {
+    "id": 108,
+    "name": "Kedutaan Besar Kerajaan Thailand",
+    "category": "A",
+    "latitude": -6.231564,
+    "longitude": 106.828376
+  },
+  {
+    "id": 109,
+    "name": "Kedutaan Besar Tunisia",
+    "category": "A",
+    "latitude": -6.22635,
+    "longitude": 106.82951
+  },
+  {
+    "id": 110,
+    "name": "Kedutaan Besar Turki",
+    "category": "A",
+    "latitude": -6.23613,
+    "longitude": 106.828192
+  },
+  {
+    "id": 111,
+    "name": "Kedutaan Besar Ukraina",
+    "category": "A",
+    "latitude": -6.21981,
+    "longitude": 106.833074
+  },
+  {
+    "id": 112,
+    "name": "Kedutaan Besar Uni Emirat Arab",
+    "category": "A",
+    "latitude": -6.225864,
+    "longitude": 106.830794
+  },
+  {
+    "id": 113,
+    "name": "Kedutaan Besar Kerajaan Inggris",
+    "category": "A",
+    "latitude": -6.230753,
+    "longitude": 106.83445
+  },
+  {
+    "id": 114,
+    "name": "Kedutaan Besar Amerika Serikat",
+    "category": "A",
+    "latitude": -6.181096,
+    "longitude": 106.830175
+  },
+  {
+    "id": 115,
+    "name": "Kedutaan Besar Uzbekistan",
+    "category": "A",
+    "latitude": -6.236569,
+    "longitude": 106.804604
+  },
+  {
+    "id": 116,
+    "name": "Kedutaan Besar Venezuela",
+    "category": "A",
+    "latitude": -6.224002,
+    "longitude": 106.816003
+  },
+  {
+    "id": 117,
+    "name": "Kedutaan Besar Vietnam",
+    "category": "A",
+    "latitude": -6.193318,
+    "longitude": 106.833546
+  },
+  {
+    "id": 118,
+    "name": "Kedutaan Besar Republik Yaman",
+    "category": "A",
+    "latitude": -6.203075,
+    "longitude": 106.830834
+  },
+  {
+    "id": 119,
+    "name": "Kedutaan Besar Republik Zimbabwe",
+    "category": "A",
+    "latitude": -6.23536,
+    "longitude": 106.83608
+  },
+  {
+    "id": 120,
+    "name": "Bandar Udara Internasional Halim Perdanakusuma",
+    "category": "B",
+    "latitude": -6.265292,
+    "longitude": 106.884952
+  },
+  {
+    "id": 121,
+    "name": "Stasiun Gambir",
+    "category": "B",
+    "latitude": -6.176702,
+    "longitude": 106.830655
+  },
+  {
+    "id": 122,
+    "name": "PLN Muara Karang",
+    "category": "B",
+    "latitude": -6.111808,
+    "longitude": 106.786766
+  },
+  {
+    "id": 123,
+    "name": "Gitet Gandul",
+    "category": "B",
+    "latitude": -6.343676,
+    "longitude": 106.786909
+  },
+  {
+    "id": 124,
+    "name": "Terminal Tanjung Priok",
+    "category": "B",
+    "latitude": -6.109546,
+    "longitude": 106.88138
+  },
+  {
+    "id": 125,
+    "name": "Hotel Sultan",
+    "category": "B",
+    "latitude": -6.21825,
+    "longitude": 106.808965
+  },
+  {
+    "id": 126,
+    "name": "SCBD",
+    "category": "B",
+    "latitude": -6.224449,
+    "longitude": 106.811049
+  },
+  {
+    "id": 127,
+    "name": "Kawasan Industri Pulogadung",
+    "category": "C",
+    "latitude": -6.188915,
+    "longitude": 106.911247
+  },
+  {
+    "id": 128,
+    "name": "RSCM",
+    "category": "C",
+    "latitude": -6.197127,
+    "longitude": 106.846881
+  },
+  {
+    "id": 129,
+    "name": "DPRD DKI Jakarta",
+    "category": "C",
+    "latitude": -6.182343,
+    "longitude": 106.829051
+  },
+  {
+    "id": 130,
+    "name": "Wisma BNI 46",
+    "category": "C",
+    "latitude": -6.203712,
+    "longitude": 106.820316
+  },
+  {
+    "id": 131,
+    "name": "Masjid Istiqlal",
+    "category": "C",
+    "latitude": -6.16994,
+    "longitude": 106.830928
+  },
+  {
+    "id": 132,
+    "name": "Gereja Katedral",
+    "category": "C",
+    "latitude": -6.169172,
+    "longitude": 106.833063
+  },
+  {
+    "id": 133,
+    "name": "Mal Grand Indonesia",
+    "category": "C",
+    "latitude": -6.194623,
+    "longitude": 106.821212
+  },
+  {
+    "id": 134,
+    "name": "Mal Plaza Senayan",
+    "category": "C",
+    "latitude": -6.225152,
+    "longitude": 106.799344
+  }
+]

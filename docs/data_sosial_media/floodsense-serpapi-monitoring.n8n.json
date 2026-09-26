@@ -1,0 +1,146 @@
+{
+  "name": "FloodSense - SerpApi Social Flood Discovery",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "4ab1f552-6f2f-4dd0-9c2c-94e79819e0e3",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-920, 120]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 15
+            }
+          ]
+        }
+      },
+      "id": "41839068-9166-4502-a537-d20cf97bf9b6",
+      "name": "Every 15 Minutes",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-920, -80],
+      "notesInFlow": true,
+      "notes": "Set workflow timezone to Asia/Jakarta and publish the workflow."
+    },
+    {
+      "parameters": {
+        "jsCode": "const base = '(banjir OR kebanjiran OR genangan OR \\\"air naik\\\" OR \\\"jalan terendam\\\" OR \\\"sungai meluap\\\" OR rob) (Jakarta OR Bekasi OR Depok OR Tangerang)';\n\nreturn [\n  { json: { query_group: 'x', q: `${base} site:x.com` } },\n  { json: { query_group: 'short_video', q: `${base} (site:tiktok.com OR site:instagram.com)` } },\n  { json: { query_group: 'youtube', q: `${base} site:youtube.com` } },\n  { json: { query_group: 'web_news', q: `${base} -site:x.com -site:tiktok.com -site:instagram.com` } },\n];"
+      },
+      "id": "c69fd292-7643-489e-9842-18c93793186b",
+      "name": "Build Search Queries",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-680, 20],
+      "notesInFlow": true,
+      "notes": "Edit terms and locations here after evaluating false positives/negatives."
+    },
+    {
+      "parameters": {
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "url": "https://serpapi.com/search.json",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "engine", "value": "google" },
+            { "name": "q", "value": "={{ $json.q }}" },
+            { "name": "location", "value": "Jakarta, Indonesia" },
+            { "name": "gl", "value": "id" },
+            { "name": "hl", "value": "id" },
+            { "name": "num", "value": "100" },
+            { "name": "tbs", "value": "qdr:h" }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          },
+          "timeout": 30000
+        }
+      },
+      "id": "0826d194-b49c-4534-8b48-67fb33c5a5d1",
+      "name": "SerpApi Google Search",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-420, 20],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "notesInFlow": true,
+      "notes": "Attach an HTTP Query Auth credential with parameter name api_key and your SerpApi key."
+    },
+    {
+      "parameters": {
+        "jsCode": "const positive = ['banjir', 'kebanjiran', 'genangan', 'terendam', 'air naik', 'meluap', 'rob'];\nconst impact = ['jalan', 'rumah', 'kendaraan', 'sungai', 'drainase', 'warga', 'evakuasi'];\nconst negative = ['banjir diskon', 'banjir order', 'banjir hadiah', 'banjir dukungan', 'game', 'film'];\nconst locations = [\n  { aliases: ['kampung melayu', 'kp melayu'], name: 'Kampung Melayu', lat: -6.2245, lng: 106.8662 },\n  { aliases: ['bidara cina'], name: 'Bidara Cina', lat: -6.2291, lng: 106.8670 },\n  { aliases: ['kelapa gading'], name: 'Kelapa Gading', lat: -6.1588, lng: 106.9056 },\n  { aliases: ['cawang'], name: 'Cawang', lat: -6.2451, lng: 106.8753 },\n  { aliases: ['pluit'], name: 'Pluit', lat: -6.1265, lng: 106.7904 },\n  { aliases: ['penjaringan'], name: 'Penjaringan', lat: -6.1177, lng: 106.7839 },\n  { aliases: ['cengkareng'], name: 'Cengkareng', lat: -6.1527, lng: 106.7447 },\n  { aliases: ['pesanggrahan'], name: 'Pesanggrahan', lat: -6.2554, lng: 106.7636 }\n];\n\nfunction normalizeUrl(value) {\n  try {\n    const url = new URL(value);\n    url.search = '';\n    url.hash = '';\n    return url.toString().replace(/\\/$/, '').slice(0, 700);\n  } catch {\n    return String(value || '').split('?')[0].split('#')[0].slice(0, 700);\n  }\n}\n\nfunction platformFromUrl(url) {\n  const value = url.toLowerCase();\n  if (value.includes('x.com') || value.includes('twitter.com')) return 'x';\n  if (value.includes('tiktok.com')) return 'tiktok';\n  if (value.includes('instagram.com')) return 'instagram';\n  if (value.includes('youtube.com') || value.includes('youtu.be')) return 'youtube';\n  return 'web';\n}\n\nconst output = [];\nfor (const input of $input.all()) {\n  const body = input.json.body ?? input.json;\n  const results = [\n    ...(Array.isArray(body.organic_results) ? body.organic_results : []),\n    ...(Array.isArray(body.news_results) ? body.news_results : [])\n  ];\n\n  for (const result of results) {\n    const sourceUrl = normalizeUrl(result.link);\n    if (!sourceUrl) continue;\n\n    const text = `${result.title ?? ''} ${result.snippet ?? ''}`.toLowerCase();\n    const positiveHits = positive.filter((term) => text.includes(term)).length;\n    const negativeHits = negative.filter((term) => text.includes(term)).length;\n    if (positiveHits === 0 || negativeHits > 0) continue;\n\n    const matchedLocation = locations.find((loc) => loc.aliases.some((alias) => text.includes(alias)));\n    const impactHits = impact.filter((term) => text.includes(term)).length;\n    const position = Number(result.position ?? 100);\n    const relevance = Math.min(100, positiveHits * 25 + impactHits * 8 + (matchedLocation ? 20 : 0));\n    const discovery = Math.min(100, Math.max(0, 45 - position) + relevance * 0.35 + (result.thumbnail ? 15 : 0));\n\n    output.push({\n      json: {\n        platform: platformFromUrl(sourceUrl),\n        external_id: sourceUrl,\n        source_url: sourceUrl,\n        title: result.title ?? null,\n        text_content: result.snippet ?? null,\n        source_published_text: result.date ?? null,\n        published_at: null,\n        collected_at: new Date().toISOString().slice(0, 19).replace('T', ' '),\n        latitude: matchedLocation?.lat ?? null,\n        longitude: matchedLocation?.lng ?? null,\n        location_name: matchedLocation?.name ?? null,\n        location_method: matchedLocation ? 'text_alias' : 'unknown',\n        location_confidence: matchedLocation ? 0.6 : 0,\n        search_position: Number.isFinite(position) ? position : null,\n        relevance_score: Number(relevance.toFixed(2)),\n        discovery_score: Number(discovery.toFixed(2)),\n        collection_method: 'serpapi_google',\n        raw_payload: JSON.stringify({\n          title: result.title ?? null,\n          link: result.link ?? null,\n          snippet: result.snippet ?? null,\n          date: result.date ?? null,\n          position: result.position ?? null,\n          displayed_link: result.displayed_link ?? null,\n          thumbnail: result.thumbnail ?? null\n        })\n      }\n    });\n  }\n}\n\nreturn output;"
+      },
+      "id": "371b2408-234c-481c-b62b-05ca0c054ee5",
+      "name": "Normalize and Score",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-150, 20],
+      "notesInFlow": true,
+      "notes": "Discovery score is not a viral or credibility score. Location aliases are indicative centroids."
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO social_flood_reports (platform, external_id, source_url, title, text_content, source_published_text, published_at, collected_at, latitude, longitude, location_name, location_method, location_confidence, search_position, relevance_score, discovery_score, collection_method, raw_payload) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) ON DUPLICATE KEY UPDATE title = VALUES(title), text_content = VALUES(text_content), source_published_text = VALUES(source_published_text), collected_at = VALUES(collected_at), latitude = VALUES(latitude), longitude = VALUES(longitude), location_name = VALUES(location_name), location_method = VALUES(location_method), location_confidence = VALUES(location_confidence), search_position = VALUES(search_position), relevance_score = VALUES(relevance_score), discovery_score = VALUES(discovery_score), raw_payload = VALUES(raw_payload);",
+        "options": {
+          "queryReplacement": "={{ [ $json.platform, $json.external_id, $json.source_url, $json.title, $json.text_content, $json.source_published_text, $json.published_at, $json.collected_at, $json.latitude, $json.longitude, $json.location_name, $json.location_method, $json.location_confidence, $json.search_position, $json.relevance_score, $json.discovery_score, $json.collection_method, $json.raw_payload ] }}"
+        }
+      },
+      "id": "a41184c4-89f0-43ef-ae3b-b4da1ab9159c",
+      "name": "MySQL Upsert Social Report",
+      "type": "n8n-nodes-base.mySql",
+      "typeVersion": 2.5,
+      "position": [130, 20],
+      "notesInFlow": true,
+      "notes": "Attach a least-privilege MySQL credential. Requires the social_flood_reports table from KAJIAN_SERPAPI_N8N.md."
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [[{ "node": "Build Search Queries", "type": "main", "index": 0 }]]
+    },
+    "Every 15 Minutes": {
+      "main": [[{ "node": "Build Search Queries", "type": "main", "index": 0 }]]
+    },
+    "Build Search Queries": {
+      "main": [[{ "node": "SerpApi Google Search", "type": "main", "index": 0 }]]
+    },
+    "SerpApi Google Search": {
+      "main": [[{ "node": "Normalize and Score", "type": "main", "index": 0 }]]
+    },
+    "Normalize and Score": {
+      "main": [[{ "node": "MySQL Upsert Social Report", "type": "main", "index": 0 }]]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "timezone": "Asia/Jakarta",
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "none"
+  },
+  "staticData": null,
+  "tags": [
+    { "name": "FloodSense" },
+    { "name": "Social Signal" },
+    { "name": "SerpApi" }
+  ],
+  "triggerCount": 1,
+  "active": false,
+  "versionId": "05ca87a4-ce9e-41f9-b9fe-868d6fe24ddd",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}
