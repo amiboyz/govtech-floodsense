@@ -1,0 +1,155 @@
+[
+  {
+    "id": 2,
+    "name": "Kali Duri Ledeng",
+    "system": "Aliran Barat",
+    "level": 80,
+    "status": 4,
+    "latitude": -6.142372,
+    "longitude": 106.791074
+  },
+  {
+    "id": 10,
+    "name": "Cakung Drain",
+    "system": "Aliran Timur",
+    "level": 231,
+    "status": 4,
+    "latitude": -6.183501,
+    "longitude": 106.92895
+  },
+  {
+    "id": 4,
+    "name": "Cideng Tarakan",
+    "system": "Aliran Tengah",
+    "level": 60,
+    "status": 4,
+    "latitude": -6.171635,
+    "longitude": 106.810986
+  },
+  {
+    "id": 8,
+    "name": "HEK PGC",
+    "system": "Aliran Timur",
+    "level": 170,
+    "status": 3,
+    "latitude": -6.287583,
+    "longitude": 106.87063
+  },
+  {
+    "id": 7,
+    "name": "Manggarai KCL",
+    "system": "Aliran Tengah",
+    "level": 510,
+    "status": 4,
+    "latitude": -6.207903,
+    "longitude": 106.848439
+  },
+  {
+    "id": 3,
+    "name": "Kampung Gusti",
+    "system": "Aliran Barat",
+    "level": 40,
+    "status": 4,
+    "latitude": -6.145026,
+    "longitude": 106.775599
+  },
+  {
+    "id": 6,
+    "name": "Manggarai BKB",
+    "system": "Aliran Tengah",
+    "level": 540,
+    "status": 4,
+    "latitude": -6.207903,
+    "longitude": 106.848439
+  },
+  {
+    "id": 5,
+    "name": "PA. Karet",
+    "system": "Aliran Tengah",
+    "level": 250,
+    "status": 4,
+    "latitude": -6.19837,
+    "longitude": 106.809817
+  },
+  {
+    "id": 12,
+    "name": "Pasar Ikan - Laut",
+    "system": "Aliran Tengah",
+    "level": 190,
+    "status": 3,
+    "latitude": -6.12669,
+    "longitude": 106.809655
+  },
+  {
+    "id": 14,
+    "name": "PA. Marina",
+    "system": "Aliran Tengah",
+    "level": 184,
+    "status": 3,
+    "latitude": -6.126688,
+    "longitude": 106.829601
+  },
+  {
+    "id": 16,
+    "name": "Jembatan Merah arah Marina",
+    "system": "Aliran Tengah",
+    "level": 120,
+    "status": 4,
+    "latitude": -6.148889,
+    "longitude": 106.834514
+  },
+  {
+    "id": 19,
+    "name": "Jembatan Merah arah Husada",
+    "system": "Aliran Tengah",
+    "level": 120,
+    "status": 4,
+    "latitude": -6.148889,
+    "longitude": 106.834514
+  },
+  {
+    "id": 17,
+    "name": "Tangki",
+    "system": "Aliran Tengah",
+    "level": 109,
+    "status": 4,
+    "latitude": -6.147081,
+    "longitude": 106.817312
+  },
+  {
+    "id": 15,
+    "name": "Istiqlal",
+    "system": "Aliran Tengah",
+    "level": 130,
+    "status": 4,
+    "latitude": -6.168147,
+    "longitude": 106.831445
+  },
+  {
+    "id": 11,
+    "name": "Pulo Gadung",
+    "system": "Aliran Timur",
+    "level": 300,
+    "status": 4,
+    "latitude": -6.190609,
+    "longitude": 106.904119
+  },
+  {
+    "id": 13,
+    "name": "Ancol Flushing",
+    "system": "Aliran Timur",
+    "level": 102,
+    "status": 4,
+    "latitude": -6.130007,
+    "longitude": 106.831268
+  },
+  {
+    "id": 1,
+    "name": "Cengkareng Drain",
+    "system": "Aliran Barat",
+    "level": 221,
+    "status": 3,
+    "latitude": -6.154056,
+    "longitude": 106.747768
+  }
+]

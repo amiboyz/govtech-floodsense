@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -28,7 +29,18 @@ jobs:
       - name: Build and Package Release
         run: npm run build
 
+      - name: Check Hostinger FTP Secrets
+        id: check_secrets
+        run: |
+          if [ -z "${{ secrets.HOSTINGER_FTP_USER }}" ] || [ -z "${{ secrets.HOSTINGER_FTP_PASSWORD }}" ]; then
+            echo "::warning::HOSTINGER_FTP_USER or HOSTINGER_FTP_PASSWORD secrets not configured yet. Build verified, skipping upload."
+            echo "configured=false" >> $GITHUB_OUTPUT
+          else
+            echo "configured=true" >> $GITHUB_OUTPUT
+          fi
+
       - name: Deploy to Hostinger via FTP/FTPS
+        if: steps.check_secrets.outputs.configured == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.HOSTINGER_FTP_HOST || 'hazapp.online' }}

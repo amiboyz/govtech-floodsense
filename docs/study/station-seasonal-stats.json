@@ -1,0 +1,4318 @@
+{
+  "tma_seasonal_stats": {
+    "103": {
+      "max_level": 1600,
+      "max_level_date": "10 Mar 2025, 00:46 WIB",
+      "highest_siaga_level": 3,
+      "highest_siaga_name": "Siaga 3 (Waspada)",
+      "siaga_duration_text": "25 jam",
+      "avg_rainy_season_level": 801
+    },
+    "107": {
+      "max_level": 5412,
+      "max_level_date": "11 Mar 2025, 14:30 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "47 jam 55 menit",
+      "avg_rainy_season_level": 2398
+    },
+    "108": {
+      "max_level": 2520,
+      "max_level_date": "18 Okt 2025, 03:00 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "6 jam 40 menit",
+      "avg_rainy_season_level": 933
+    },
+    "114": {
+      "max_level": 7946,
+      "max_level_date": "08 Nov 2025, 12:20 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "10 jam 10 menit",
+      "avg_rainy_season_level": 583
+    },
+    "115": {
+      "max_level": 410,
+      "max_level_date": "24 Mar 2026, 03:20 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 114
+    },
+    "116": {
+      "max_level": 5390,
+      "max_level_date": "12 Nov 2025, 12:10 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "~10 menit (kejadian sesaat)",
+      "avg_rainy_season_level": 384
+    },
+    "117": {
+      "max_level": 2100,
+      "max_level_date": "28 Apr 2026, 03:00 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "14 jam 10 menit",
+      "avg_rainy_season_level": 1707
+    },
+    "118": {
+      "max_level": 3440,
+      "max_level_date": "21 Mar 2026, 10:00 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "30 jam",
+      "avg_rainy_season_level": 1224
+    },
+    "122": {
+      "max_level": 8340,
+      "max_level_date": "08 Mar 2026, 13:30 WIB",
+      "highest_siaga_level": 3,
+      "highest_siaga_name": "Siaga 3 (Waspada)",
+      "siaga_duration_text": "10 jam",
+      "avg_rainy_season_level": 6070
+    },
+    "126": {
+      "max_level": 6187,
+      "max_level_date": "18 Jan 2026, 12:40 WIB",
+      "highest_siaga_level": 3,
+      "highest_siaga_name": "Siaga 3 (Waspada)",
+      "siaga_duration_text": "3 jam 10 menit",
+      "avg_rainy_season_level": 3028
+    },
+    "140": {
+      "max_level": 8040,
+      "max_level_date": "02 Des 2025, 18:40 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "24 jam",
+      "avg_rainy_season_level": 1721
+    },
+    "141": {
+      "max_level": -1800,
+      "max_level_date": "13 Apr 2026, 21:00 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": -1995
+    },
+    "143": {
+      "max_level": 3800,
+      "max_level_date": "04 Mar 2026, 04:00 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 3094
+    },
+    "144": {
+      "max_level": 350,
+      "max_level_date": "19 Feb 2026, 00:00 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 179
+    },
+    "149": {
+      "max_level": 2400,
+      "max_level_date": "25 Mei 2026, 06:00 WIB",
+      "highest_siaga_level": 3,
+      "highest_siaga_name": "Siaga 3 (Waspada)",
+      "siaga_duration_text": "32 jam",
+      "avg_rainy_season_level": null
+    },
+    "150": {
+      "max_level": 2916,
+      "max_level_date": "08 Mar 2025, 23:25 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "25 jam 30 menit",
+      "avg_rainy_season_level": 1059
+    },
+    "151": {
+      "max_level": 1933,
+      "max_level_date": "23 Sep 2025, 01:25 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "6 jam",
+      "avg_rainy_season_level": 326
+    },
+    "155": {
+      "max_level": 1745,
+      "max_level_date": "03 Mar 2025, 04:30 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "25 jam 20 menit",
+      "avg_rainy_season_level": 221
+    },
+    "156": {
+      "max_level": 4218,
+      "max_level_date": "04 Mar 2025, 09:40 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "36 jam 20 menit",
+      "avg_rainy_season_level": 1106
+    },
+    "157": {
+      "max_level": 8928,
+      "max_level_date": "04 Mar 2025, 19:50 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "39 jam 40 menit",
+      "avg_rainy_season_level": 6028
+    },
+    "158": {
+      "max_level": 3961,
+      "max_level_date": "08 Mar 2026, 12:50 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "39 jam 25 menit",
+      "avg_rainy_season_level": 921
+    },
+    "159": {
+      "max_level": 2310,
+      "max_level_date": "04 Mar 2025, 15:10 WIB",
+      "highest_siaga_level": 3,
+      "highest_siaga_name": "Siaga 3 (Waspada)",
+      "siaga_duration_text": "14 jam 50 menit",
+      "avg_rainy_season_level": 624
+    },
+    "160": {
+      "max_level": 3296,
+      "max_level_date": "10 Agu 2025, 09:50 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "32 jam",
+      "avg_rainy_season_level": 754
+    },
+    "161": {
+      "max_level": 6126,
+      "max_level_date": "23 Okt 2025, 00:54 WIB",
+      "highest_siaga_level": 3,
+      "highest_siaga_name": "Siaga 3 (Waspada)",
+      "siaga_duration_text": "3 jam 20 menit",
+      "avg_rainy_season_level": 3306
+    },
+    "162": {
+      "max_level": 3483,
+      "max_level_date": "17 Apr 2026, 15:25 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "48 jam",
+      "avg_rainy_season_level": 1832
+    },
+    "163": {
+      "max_level": 6357,
+      "max_level_date": "08 Mar 2026, 14:25 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "16 jam",
+      "avg_rainy_season_level": 3190
+    },
+    "164": {
+      "max_level": 2083,
+      "max_level_date": "15 Jan 2026, 17:25 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "48 jam",
+      "avg_rainy_season_level": 1015
+    },
+    "165": {
+      "max_level": 1102,
+      "max_level_date": "20 Feb 2026, 13:10 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 219
+    },
+    "166": {
+      "max_level": 2304,
+      "max_level_date": "06 Mar 2025, 11:40 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "28 jam 50 menit",
+      "avg_rainy_season_level": 247
+    },
+    "167": {
+      "max_level": 502,
+      "max_level_date": "18 Jan 2026, 19:10 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "16 jam 15 menit",
+      "avg_rainy_season_level": -1793
+    },
+    "169": {
+      "max_level": 3097,
+      "max_level_date": "18 Jan 2026, 11:55 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "8 jam 15 menit",
+      "avg_rainy_season_level": 1710
+    },
+    "170": {
+      "max_level": 2327,
+      "max_level_date": "18 Jan 2026, 15:25 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "11 jam 30 menit",
+      "avg_rainy_season_level": 1565
+    },
+    "171": {
+      "max_level": 2012,
+      "max_level_date": "18 Jan 2026, 13:00 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "10 jam 45 menit",
+      "avg_rainy_season_level": 861
+    },
+    "172": {
+      "max_level": 2458,
+      "max_level_date": "05 Mar 2025, 05:30 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 1005
+    },
+    "176": {
+      "max_level": 3227,
+      "max_level_date": "22 Mar 2026, 11:40 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "16 jam 35 menit",
+      "avg_rainy_season_level": 689
+    },
+    "178": {
+      "max_level": 4175,
+      "max_level_date": "22 Mar 2026, 01:55 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "48 jam",
+      "avg_rainy_season_level": 2176
+    },
+    "179": {
+      "max_level": 4641,
+      "max_level_date": "05 Des 2025, 23:52 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "47 jam 38 menit",
+      "avg_rainy_season_level": 915
+    },
+    "181": {
+      "max_level": 4089,
+      "max_level_date": "19 Jan 2026, 00:29 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "42 jam 45 menit",
+      "avg_rainy_season_level": 949
+    },
+    "184": {
+      "max_level": 3012,
+      "max_level_date": "06 Des 2025, 16:41 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "47 jam 32 menit",
+      "avg_rainy_season_level": 795
+    },
+    "187": {
+      "max_level": 2726,
+      "max_level_date": "06 Des 2025, 16:53 WIB",
+      "highest_siaga_level": 2,
+      "highest_siaga_name": "Siaga 2 (Kritis)",
+      "siaga_duration_text": "47 jam 35 menit",
+      "avg_rainy_season_level": 785
+    },
+    "189": {
+      "max_level": 4264,
+      "max_level_date": "30 Jan 2026, 05:20 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 2094
+    },
+    "191": {
+      "max_level": 24099,
+      "max_level_date": "22 Jun 2026, 18:30 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "1 jam 32 menit",
+      "avg_rainy_season_level": 426
+    },
+    "192": {
+      "max_level": 2192,
+      "max_level_date": "28 Des 2025, 22:30 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 512
+    },
+    "193": {
+      "max_level": 4507,
+      "max_level_date": "30 Jan 2026, 14:50 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 1010
+    },
+    "194": {
+      "max_level": 3069,
+      "max_level_date": "08 Mar 2026, 10:10 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 796
+    },
+    "195": {
+      "max_level": 2551,
+      "max_level_date": "08 Mar 2026, 11:10 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 493
+    },
+    "196": {
+      "max_level": 2466,
+      "max_level_date": "22 Mar 2026, 08:50 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 321
+    },
+    "197": {
+      "max_level": 3195,
+      "max_level_date": "30 Mar 2026, 22:10 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 865
+    },
+    "198": {
+      "max_level": 2008,
+      "max_level_date": "14 Apr 2026, 22:50 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 635
+    },
+    "199": {
+      "max_level": 3812,
+      "max_level_date": "08 Mar 2026, 09:50 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 738
+    },
+    "200": {
+      "max_level": 24036,
+      "max_level_date": "22 Jun 2026, 20:31 WIB",
+      "highest_siaga_level": 1,
+      "highest_siaga_name": "Siaga 1 (Bencana)",
+      "siaga_duration_text": "49 menit",
+      "avg_rainy_season_level": 1522
+    },
+    "201": {
+      "max_level": 2960,
+      "max_level_date": "08 Mar 2026, 08:50 WIB",
+      "highest_siaga_level": 4,
+      "highest_siaga_name": "Siaga 4 (Normal)",
+      "siaga_duration_text": "Normal (0 jam)",
+      "avg_rainy_season_level": 822
+    }
+  },
+  "ch_seasonal_stats": {
+    "304": {
+      "max_rain_reading": 43,
+      "avg_rainy_season_reading": 1.2,
+      "max_monthly_rain": 43,
+      "avg_monthly_rainy_season": 1.7,
+      "max_yearly_rain": 931
+    },
+    "306": {
+      "max_rain_reading": 67,
+      "avg_rainy_season_reading": 3.6,
+      "max_monthly_rain": 209,
+      "avg_monthly_rainy_season": 93.8,
+      "max_yearly_rain": 2719
+    },
+    "308": {
+      "max_rain_reading": 86,
+      "avg_rainy_season_reading": 4.4,
+      "max_monthly_rain": 465,
+      "avg_monthly_rainy_season": 227,
+      "max_yearly_rain": 1471
+    },
+    "315": {
+      "max_rain_reading": 237,
+      "avg_rainy_season_reading": 8.1,
+      "max_monthly_rain": 1129,
+      "avg_monthly_rainy_season": 402.7,
+      "max_yearly_rain": 2671
+    },
+    "317": {
+      "max_rain_reading": 74,
+      "avg_rainy_season_reading": 5.2,
+      "max_monthly_rain": 435,
+      "avg_monthly_rainy_season": 196.4,
+      "max_yearly_rain": 1296
+    },
+    "318": {
+      "max_rain_reading": 158,
+      "avg_rainy_season_reading": 4.5,
+      "max_monthly_rain": 930,
+      "avg_monthly_rainy_season": 293.4,
+      "max_yearly_rain": 1726
+    },
+    "319": {
+      "max_rain_reading": 190,
+      "avg_rainy_season_reading": 5.7,
+      "max_monthly_rain": 778,
+      "avg_monthly_rainy_season": 320,
+      "max_yearly_rain": 2600
+    },
+    "320": {
+      "max_rain_reading": 134,
+      "avg_rainy_season_reading": 5.6,
+      "max_monthly_rain": 606,
+      "avg_monthly_rainy_season": 297.6,
+      "max_yearly_rain": 2122
+    },
+    "321": {
+      "max_rain_reading": 154,
+      "avg_rainy_season_reading": 5.8,
+      "max_monthly_rain": 470,
+      "avg_monthly_rainy_season": 207.4,
+      "max_yearly_rain": 3446
+    },
+    "322": {
+      "max_rain_reading": 149,
+      "avg_rainy_season_reading": 5.2,
+      "max_monthly_rain": 514,
+      "avg_monthly_rainy_season": 270.6,
+      "max_yearly_rain": 2819
+    },
+    "323": {
+      "max_rain_reading": 166,
+      "avg_rainy_season_reading": 7.2,
+      "max_monthly_rain": 653,
+      "avg_monthly_rainy_season": 385,
+      "max_yearly_rain": 3389
+    },
+    "325": {
+      "max_rain_reading": 138,
+      "avg_rainy_season_reading": 4.7,
+      "max_monthly_rain": 674,
+      "avg_monthly_rainy_season": 250.3,
+      "max_yearly_rain": 2111
+    },
+    "326": {
+      "max_rain_reading": 149,
+      "avg_rainy_season_reading": 5.1,
+      "max_monthly_rain": 660,
+      "avg_monthly_rainy_season": 294.6,
+      "max_yearly_rain": 2641
+    },
+    "327": {
+      "max_rain_reading": 151,
+      "avg_rainy_season_reading": 5.8,
+      "max_monthly_rain": 660,
+      "avg_monthly_rainy_season": 322.7,
+      "max_yearly_rain": 2933
+    },
+    "328": {
+      "max_rain_reading": 120,
+      "avg_rainy_season_reading": 5.4,
+      "max_monthly_rain": 441,
+      "avg_monthly_rainy_season": 262.8,
+      "max_yearly_rain": 2561
+    },
+    "329": {
+      "max_rain_reading": 114,
+      "avg_rainy_season_reading": 4.6,
+      "max_monthly_rain": 467,
+      "avg_monthly_rainy_season": 264.6,
+      "max_yearly_rain": 3008
+    },
+    "330": {
+      "max_rain_reading": 154,
+      "avg_rainy_season_reading": 5.3,
+      "max_monthly_rain": 549,
+      "avg_monthly_rainy_season": 305.1,
+      "max_yearly_rain": 2893
+    },
+    "331": {
+      "max_rain_reading": 148,
+      "avg_rainy_season_reading": 5.5,
+      "max_monthly_rain": 680,
+      "avg_monthly_rainy_season": 294.9,
+      "max_yearly_rain": 2599
+    },
+    "332": {
+      "max_rain_reading": 104,
+      "avg_rainy_season_reading": 6.5,
+      "max_monthly_rain": 625,
+      "avg_monthly_rainy_season": 304.1,
+      "max_yearly_rain": 3158
+    },
+    "333": {
+      "max_rain_reading": 134,
+      "avg_rainy_season_reading": 5.3,
+      "max_monthly_rain": 541,
+      "avg_monthly_rainy_season": 263.2,
+      "max_yearly_rain": 3794
+    },
+    "334": {
+      "max_rain_reading": 115,
+      "avg_rainy_season_reading": 6.5,
+      "max_monthly_rain": 617,
+      "avg_monthly_rainy_season": 305.3,
+      "max_yearly_rain": 2417
+    },
+    "335": {
+      "max_rain_reading": 100,
+      "avg_rainy_season_reading": 4.5,
+      "max_monthly_rain": 335,
+      "avg_monthly_rainy_season": 203.7,
+      "max_yearly_rain": 1175
+    },
+    "336": {
+      "max_rain_reading": 144,
+      "avg_rainy_season_reading": 4.8,
+      "max_monthly_rain": 545,
+      "avg_monthly_rainy_season": 272.6,
+      "max_yearly_rain": 3278
+    },
+    "337": {
+      "max_rain_reading": 145,
+      "avg_rainy_season_reading": 3.8,
+      "max_monthly_rain": 548,
+      "avg_monthly_rainy_season": 214.1,
+      "max_yearly_rain": 1989
+    },
+    "338": {
+      "max_rain_reading": 109,
+      "avg_rainy_season_reading": 7,
+      "max_monthly_rain": 637,
+      "avg_monthly_rainy_season": 361.5,
+      "max_yearly_rain": 2565
+    },
+    "339": {
+      "max_rain_reading": 102,
+      "avg_rainy_season_reading": 5.1,
+      "max_monthly_rain": 541,
+      "avg_monthly_rainy_season": 243.1,
+      "max_yearly_rain": 1416
+    },
+    "340": {
+      "max_rain_reading": 94,
+      "avg_rainy_season_reading": 5.4,
+      "max_monthly_rain": 531,
+      "avg_monthly_rainy_season": 279.4,
+      "max_yearly_rain": 1688
+    },
+    "341": {
+      "max_rain_reading": 106,
+      "avg_rainy_season_reading": 6,
+      "max_monthly_rain": 461,
+      "avg_monthly_rainy_season": 301.9,
+      "max_yearly_rain": 3734
+    },
+    "342": {
+      "max_rain_reading": 108,
+      "avg_rainy_season_reading": 5.8,
+      "max_monthly_rain": 536,
+      "avg_monthly_rainy_season": 298.8,
+      "max_yearly_rain": 4071
+    },
+    "343": {
+      "max_rain_reading": 200,
+      "avg_rainy_season_reading": 4.8,
+      "max_monthly_rain": 963,
+      "avg_monthly_rainy_season": 281.8,
+      "max_yearly_rain": 1870
+    },
+    "344": {
+      "max_rain_reading": 157,
+      "avg_rainy_season_reading": 5.6,
+      "max_monthly_rain": 645,
+      "avg_monthly_rainy_season": 310.4,
+      "max_yearly_rain": 2869
+    },
+    "345": {
+      "max_rain_reading": 156,
+      "avg_rainy_season_reading": 5.4,
+      "max_monthly_rain": 640,
+      "avg_monthly_rainy_season": 295.5,
+      "max_yearly_rain": 2651
+    },
+    "346": {
+      "max_rain_reading": 132,
+      "avg_rainy_season_reading": 4.4,
+      "max_monthly_rain": 735,
+      "avg_monthly_rainy_season": 249.3,
+      "max_yearly_rain": 2495
+    },
+    "347": {
+      "max_rain_reading": 192,
+      "avg_rainy_season_reading": 4.6,
+      "max_monthly_rain": 839,
+      "avg_monthly_rainy_season": 289.2,
+      "max_yearly_rain": 1856
+    },
+    "348": {
+      "max_rain_reading": 138,
+      "avg_rainy_season_reading": 4.9,
+      "max_monthly_rain": 768,
+      "avg_monthly_rainy_season": 273.8,
+      "max_yearly_rain": 2693
+    },
+    "349": {
+      "max_rain_reading": 176,
+      "avg_rainy_season_reading": 5.7,
+      "max_monthly_rain": 669,
+      "avg_monthly_rainy_season": 316.6,
+      "max_yearly_rain": 3146
+    },
+    "350": {
+      "max_rain_reading": 151,
+      "avg_rainy_season_reading": 4.6,
+      "max_monthly_rain": 778,
+      "avg_monthly_rainy_season": 263.7,
+      "max_yearly_rain": 1613
+    },
+    "351": {
+      "max_rain_reading": 212,
+      "avg_rainy_season_reading": 5.3,
+      "max_monthly_rain": 1010,
+      "avg_monthly_rainy_season": 323.6,
+      "max_yearly_rain": 2112
+    },
+    "352": {
+      "max_rain_reading": 186,
+      "avg_rainy_season_reading": 4.7,
+      "max_monthly_rain": 971,
+      "avg_monthly_rainy_season": 291.4,
+      "max_yearly_rain": 1603
+    },
+    "353": {
+      "max_rain_reading": 275,
+      "avg_rainy_season_reading": 7.1,
+      "max_monthly_rain": 698,
+      "avg_monthly_rainy_season": 377.1,
+      "max_yearly_rain": 2735
+    },
+    "1364": {
+      "max_rain_reading": 144,
+      "avg_rainy_season_reading": 7.5,
+      "max_monthly_rain": 638,
+      "avg_monthly_rainy_season": 351.4,
+      "max_yearly_rain": 4028
+    },
+    "1365": {
+      "max_rain_reading": 2,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 286,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 2799
+    },
+    "1366": {
+      "max_rain_reading": 132,
+      "avg_rainy_season_reading": 3.8,
+      "max_monthly_rain": 417,
+      "avg_monthly_rainy_season": 286.3,
+      "max_yearly_rain": 2433
+    },
+    "1367": {
+      "max_rain_reading": 70,
+      "avg_rainy_season_reading": 2.6,
+      "max_monthly_rain": 328,
+      "avg_monthly_rainy_season": 140.5,
+      "max_yearly_rain": 1666
+    },
+    "1368": {
+      "max_rain_reading": 99,
+      "avg_rainy_season_reading": 5.9,
+      "max_monthly_rain": 378,
+      "avg_monthly_rainy_season": 222.7,
+      "max_yearly_rain": 2955
+    },
+    "1369": {
+      "max_rain_reading": 104,
+      "avg_rainy_season_reading": 6.5,
+      "max_monthly_rain": 532,
+      "avg_monthly_rainy_season": 294.1,
+      "max_yearly_rain": 3150
+    },
+    "1370": {
+      "max_rain_reading": 154,
+      "avg_rainy_season_reading": 4.9,
+      "max_monthly_rain": 834,
+      "avg_monthly_rainy_season": 303.4,
+      "max_yearly_rain": 2572
+    },
+    "1371": {
+      "max_rain_reading": 216,
+      "avg_rainy_season_reading": 3.1,
+      "max_monthly_rain": 782,
+      "avg_monthly_rainy_season": 216.5,
+      "max_yearly_rain": 2087
+    },
+    "1372": {
+      "max_rain_reading": 125,
+      "avg_rainy_season_reading": 5.8,
+      "max_monthly_rain": 802,
+      "avg_monthly_rainy_season": 317.8,
+      "max_yearly_rain": 2707
+    },
+    "1373": {
+      "max_rain_reading": 197,
+      "avg_rainy_season_reading": 4.4,
+      "max_monthly_rain": 876,
+      "avg_monthly_rainy_season": 281.3,
+      "max_yearly_rain": 2111
+    },
+    "1374": {
+      "max_rain_reading": 141,
+      "avg_rainy_season_reading": 4.9,
+      "max_monthly_rain": 813,
+      "avg_monthly_rainy_season": 282.8,
+      "max_yearly_rain": 2652
+    },
+    "1375": {
+      "max_rain_reading": 181,
+      "avg_rainy_season_reading": 4.4,
+      "max_monthly_rain": 884,
+      "avg_monthly_rainy_season": 284.5,
+      "max_yearly_rain": 2128
+    },
+    "1376": {
+      "max_rain_reading": 166,
+      "avg_rainy_season_reading": 4.5,
+      "max_monthly_rain": 996,
+      "avg_monthly_rainy_season": 287.5,
+      "max_yearly_rain": 2240
+    },
+    "1377": {
+      "max_rain_reading": 202,
+      "avg_rainy_season_reading": 5.1,
+      "max_monthly_rain": 887,
+      "avg_monthly_rainy_season": 299.4,
+      "max_yearly_rain": 2710
+    },
+    "1378": {
+      "max_rain_reading": 228,
+      "avg_rainy_season_reading": 5.1,
+      "max_monthly_rain": 1049,
+      "avg_monthly_rainy_season": 325.4,
+      "max_yearly_rain": 2528
+    },
+    "1379": {
+      "max_rain_reading": 209,
+      "avg_rainy_season_reading": 4.3,
+      "max_monthly_rain": 791,
+      "avg_monthly_rainy_season": 273.9,
+      "max_yearly_rain": 2307
+    },
+    "1380": {
+      "max_rain_reading": 181,
+      "avg_rainy_season_reading": 5.4,
+      "max_monthly_rain": 870,
+      "avg_monthly_rainy_season": 306.4,
+      "max_yearly_rain": 2857
+    },
+    "1381": {
+      "max_rain_reading": 147,
+      "avg_rainy_season_reading": 4.8,
+      "max_monthly_rain": 536,
+      "avg_monthly_rainy_season": 253.4,
+      "max_yearly_rain": 2264
+    },
+    "1382": {
+      "max_rain_reading": 139,
+      "avg_rainy_season_reading": 5.7,
+      "max_monthly_rain": 515,
+      "avg_monthly_rainy_season": 294.9,
+      "max_yearly_rain": 2523
+    },
+    "1383": {
+      "max_rain_reading": 174,
+      "avg_rainy_season_reading": 5.1,
+      "max_monthly_rain": 890,
+      "avg_monthly_rainy_season": 269,
+      "max_yearly_rain": 1703
+    },
+    "1384": {
+      "max_rain_reading": 137,
+      "avg_rainy_season_reading": 7.4,
+      "max_monthly_rain": 594,
+      "avg_monthly_rainy_season": 304,
+      "max_yearly_rain": 2019
+    },
+    "1385": {
+      "max_rain_reading": 95,
+      "avg_rainy_season_reading": 7.8,
+      "max_monthly_rain": 1110,
+      "avg_monthly_rainy_season": 404.4,
+      "max_yearly_rain": 2645
+    },
+    "1386": {
+      "max_rain_reading": 129,
+      "avg_rainy_season_reading": 7,
+      "max_monthly_rain": 596,
+      "avg_monthly_rainy_season": 336.3,
+      "max_yearly_rain": 1877
+    },
+    "1387": {
+      "max_rain_reading": 98,
+      "avg_rainy_season_reading": 6.3,
+      "max_monthly_rain": 530,
+      "avg_monthly_rainy_season": 290.7,
+      "max_yearly_rain": 1549
+    },
+    "1388": {
+      "max_rain_reading": 218,
+      "avg_rainy_season_reading": 7.4,
+      "max_monthly_rain": 775,
+      "avg_monthly_rainy_season": 355.2,
+      "max_yearly_rain": 2284
+    },
+    "1389": {
+      "max_rain_reading": 167,
+      "avg_rainy_season_reading": 6.9,
+      "max_monthly_rain": 676,
+      "avg_monthly_rainy_season": 353.6,
+      "max_yearly_rain": 1849
+    },
+    "1390": {
+      "max_rain_reading": 205,
+      "avg_rainy_season_reading": 7.7,
+      "max_monthly_rain": 812,
+      "avg_monthly_rainy_season": 377.8,
+      "max_yearly_rain": 2129
+    },
+    "1391": {
+      "max_rain_reading": 132,
+      "avg_rainy_season_reading": 7,
+      "max_monthly_rain": 658,
+      "avg_monthly_rainy_season": 349.1,
+      "max_yearly_rain": 1979
+    },
+    "1392": {
+      "max_rain_reading": 197,
+      "avg_rainy_season_reading": 6.8,
+      "max_monthly_rain": 736,
+      "avg_monthly_rainy_season": 347.7,
+      "max_yearly_rain": 2023
+    },
+    "1393": {
+      "max_rain_reading": 110,
+      "avg_rainy_season_reading": 7.3,
+      "max_monthly_rain": 569,
+      "avg_monthly_rainy_season": 314.4,
+      "max_yearly_rain": 2000
+    },
+    "1394": {
+      "max_rain_reading": 173,
+      "avg_rainy_season_reading": 6.2,
+      "max_monthly_rain": 716,
+      "avg_monthly_rainy_season": 330.2,
+      "max_yearly_rain": 2035
+    },
+    "1395": {
+      "max_rain_reading": 153,
+      "avg_rainy_season_reading": 6.7,
+      "max_monthly_rain": 805,
+      "avg_monthly_rainy_season": 351.3,
+      "max_yearly_rain": 2061
+    },
+    "1396": {
+      "max_rain_reading": 130,
+      "avg_rainy_season_reading": 5.8,
+      "max_monthly_rain": 857,
+      "avg_monthly_rainy_season": 300.6,
+      "max_yearly_rain": 1811
+    },
+    "1397": {
+      "max_rain_reading": 170,
+      "avg_rainy_season_reading": 6.7,
+      "max_monthly_rain": 574,
+      "avg_monthly_rainy_season": 316.1,
+      "max_yearly_rain": 1737
+    },
+    "1398": {
+      "max_rain_reading": 140,
+      "avg_rainy_season_reading": 8.3,
+      "max_monthly_rain": 799,
+      "avg_monthly_rainy_season": 341.6,
+      "max_yearly_rain": 2648
+    },
+    "1399": {
+      "max_rain_reading": 122,
+      "avg_rainy_season_reading": 6,
+      "max_monthly_rain": 548,
+      "avg_monthly_rainy_season": 294.5,
+      "max_yearly_rain": 1885
+    },
+    "1400": {
+      "max_rain_reading": 120,
+      "avg_rainy_season_reading": 7,
+      "max_monthly_rain": 604,
+      "avg_monthly_rainy_season": 327.5,
+      "max_yearly_rain": 1872
+    },
+    "1401": {
+      "max_rain_reading": 141,
+      "avg_rainy_season_reading": 8,
+      "max_monthly_rain": 825,
+      "avg_monthly_rainy_season": 341.8,
+      "max_yearly_rain": 2560
+    },
+    "1403": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 4,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 4
+    },
+    "1404": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 0,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 0
+    },
+    "1405": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 4,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 4
+    },
+    "1406": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 2,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 2
+    },
+    "1407": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 0,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 0
+    },
+    "1408": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 6,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 6
+    },
+    "1409": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 18,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 18
+    },
+    "1410": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 28,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 28
+    },
+    "1411": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 4,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 4
+    },
+    "1412": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 17,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 17
+    },
+    "1413": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 2,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 2
+    },
+    "1414": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 0,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 0
+    },
+    "1415": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 0,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 0
+    },
+    "1416": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 0,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 0
+    },
+    "1417": {
+      "max_rain_reading": 0,
+      "avg_rainy_season_reading": 0,
+      "max_monthly_rain": 0,
+      "avg_monthly_rainy_season": 0,
+      "max_yearly_rain": 0
+    }
+  },
+  "generated_at": "2026-09-24T21:35:17.217985",
+  "wet_season_months": "November - April",
+  "thiessen_regional_dki": {
+    "max_daily_mm": 88.5,
+    "max_date_raw": "2026-01-22",
+    "max_date": "22 Jan 2026",
+    "bmkg_category": "Hujan Lebat",
+    "avg_wet_season_mm": 10.4,
+    "active_stations": 72,
+    "area_km2": 6081.3,
+    "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+  },
+  "thiessen_das": {
+    "Das Cikapadilan": {
+      "das_name": "Das Cikapadilan",
+      "max_daily_mm": 154.8,
+      "max_date_raw": "2026-01-12",
+      "max_date": "12 Jan 2026",
+      "bmkg_category": "Hujan Ekstrem",
+      "avg_wet_season_mm": 10.0,
+      "station_count": 4,
+      "area_km2": 87.2
+    },
+    "Das Sunter": {
+      "das_name": "Das Sunter",
+      "max_daily_mm": 119.8,
+      "max_date_raw": "2026-01-22",
+      "max_date": "22 Jan 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 11.2,
+      "station_count": 39,
+      "area_km2": 441.6
+    },
+    "Das Ciliwung": {
+      "das_name": "Das Ciliwung",
+      "max_daily_mm": 80.7,
+      "max_date_raw": "2026-01-29",
+      "max_date": "29 Jan 2026",
+      "bmkg_category": "Hujan Lebat",
+      "avg_wet_season_mm": 11.0,
+      "station_count": 55,
+      "area_km2": 717.8
+    },
+    "Das Cisadane": {
+      "das_name": "Das Cisadane",
+      "max_daily_mm": 90.4,
+      "max_date_raw": "2026-01-29",
+      "max_date": "29 Jan 2026",
+      "bmkg_category": "Hujan Lebat",
+      "avg_wet_season_mm": 10.5,
+      "station_count": 16,
+      "area_km2": 1634.1
+    },
+    "Das Bekasi": {
+      "das_name": "Das Bekasi",
+      "max_daily_mm": 79.7,
+      "max_date_raw": "2026-01-17",
+      "max_date": "17 Jan 2026",
+      "bmkg_category": "Hujan Lebat",
+      "avg_wet_season_mm": 10.9,
+      "station_count": 17,
+      "area_km2": 1454.1
+    },
+    "Das Krukut": {
+      "das_name": "Das Krukut",
+      "max_daily_mm": 114.4,
+      "max_date_raw": "2026-01-22",
+      "max_date": "22 Jan 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 10.3,
+      "station_count": 26,
+      "area_km2": 172.0
+    },
+    "Das Blencong": {
+      "das_name": "Das Blencong",
+      "max_daily_mm": 152.4,
+      "max_date_raw": "2026-01-17",
+      "max_date": "17 Jan 2026",
+      "bmkg_category": "Hujan Ekstrem",
+      "avg_wet_season_mm": 10.2,
+      "station_count": 5,
+      "area_km2": 80.9
+    },
+    "Das Cakung": {
+      "das_name": "Das Cakung",
+      "max_daily_mm": 148.8,
+      "max_date_raw": "2026-01-22",
+      "max_date": "22 Jan 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 10.8,
+      "station_count": 12,
+      "area_km2": 143.1
+    },
+    "Das Angke": {
+      "das_name": "Das Angke",
+      "max_daily_mm": 107.6,
+      "max_date_raw": "2026-03-07",
+      "max_date": "07 Mar 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 9.3,
+      "station_count": 31,
+      "area_km2": 500.3
+    },
+    "Das Ciasin": {
+      "das_name": "Das Ciasin",
+      "max_daily_mm": 139.1,
+      "max_date_raw": "2026-03-07",
+      "max_date": "07 Mar 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 8.3,
+      "station_count": 2,
+      "area_km2": 68.3
+    },
+    "Das Cirarab": {
+      "das_name": "Das Cirarab",
+      "max_daily_mm": 136.2,
+      "max_date_raw": "2026-03-07",
+      "max_date": "07 Mar 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 9.0,
+      "station_count": 4,
+      "area_km2": 178.9
+    },
+    "Das Cimauk": {
+      "das_name": "Das Cimauk",
+      "max_daily_mm": 143.5,
+      "max_date_raw": "2026-03-07",
+      "max_date": "07 Mar 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 8.1,
+      "station_count": 1,
+      "area_km2": 32.1
+    },
+    "Das Cileleus": {
+      "das_name": "Das Cileleus",
+      "max_daily_mm": 138.6,
+      "max_date_raw": "2026-03-07",
+      "max_date": "07 Mar 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 8.5,
+      "station_count": 2,
+      "area_km2": 84.0
+    },
+    "Das Ciranggon": {
+      "das_name": "Das Ciranggon",
+      "max_daily_mm": 143.5,
+      "max_date_raw": "2026-03-07",
+      "max_date": "07 Mar 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 8.1,
+      "station_count": 1,
+      "area_km2": 16.8
+    },
+    "Das Cimanceuri": {
+      "das_name": "Das Cimanceuri",
+      "max_daily_mm": 134.9,
+      "max_date_raw": "2026-03-07",
+      "max_date": "07 Mar 2026",
+      "bmkg_category": "Hujan Sangat Lebat",
+      "avg_wet_season_mm": 9.3,
+      "station_count": 6,
+      "area_km2": 469.9
+    }
+  },
+  "thiessen_station_stats": {
+    "304": {
+      "station_id": "304",
+      "name": "Cideng",
+      "thiessen_area_km2": 9.81,
+      "thiessen_weight_pct": 0.16,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 43.0,
+      "avg_rainy_season_reading": 1.4,
+      "max_daily_rain": 43.0,
+      "max_daily_date": "22 Okt 2025",
+      "max_daily_bmkg": "Hujan Sedang",
+      "avg_rainy_season_daily": 1.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "1366": {
+      "station_id": "1366",
+      "name": "P.A MANGGARAI (BARU)",
+      "thiessen_area_km2": 15.68,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 132.0,
+      "avg_rainy_season_reading": 5.3,
+      "max_daily_rain": 132.0,
+      "max_daily_date": "22 Okt 2025",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 5.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "1365": {
+      "station_id": "1365",
+      "name": "P.S. Depok 1",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 2.0,
+      "avg_rainy_season_reading": 0.1,
+      "max_daily_rain": 2.0,
+      "max_daily_date": "08 Mei 2026",
+      "max_daily_bmkg": "Hujan Ringan",
+      "avg_rainy_season_daily": 0.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1384": {
+      "station_id": "1384",
+      "name": "Bendung Katulampa 2",
+      "thiessen_area_km2": 135.77,
+      "thiessen_weight_pct": 2.23,
+      "matched_das": "Das Cisadane",
+      "max_rain_reading": 137.0,
+      "avg_rainy_season_reading": 12.8,
+      "max_daily_rain": 137.0,
+      "max_daily_date": "29 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 12.8,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cisadane",
+        "max_daily_mm": 90.4,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.5,
+        "station_count": 16,
+        "area_km2": 1634.1
+      }
+    },
+    "308": {
+      "station_id": "308",
+      "name": "P.S Krukut Hulu 2 (Ciganjur) ",
+      "thiessen_area_km2": 13.37,
+      "thiessen_weight_pct": 0.22,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 86.0,
+      "avg_rainy_season_reading": 8.2,
+      "max_daily_rain": 86.0,
+      "max_daily_date": "24 Mei 2026",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 8.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "1368": {
+      "station_id": "1368",
+      "name": "P.S KRUKUT HULU (BARU)",
+      "thiessen_area_km2": 9.24,
+      "thiessen_weight_pct": 0.15,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 99.0,
+      "avg_rainy_season_reading": 10.1,
+      "max_daily_rain": 99.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 10.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "1367": {
+      "station_id": "1367",
+      "name": "P.S angke Hulu ( Ciledug ) 1",
+      "thiessen_area_km2": 25.48,
+      "thiessen_weight_pct": 0.42,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 69.8,
+      "avg_rainy_season_reading": 5.0,
+      "max_daily_rain": 69.8,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 5.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "1369": {
+      "station_id": "1369",
+      "name": "P.S Pesanggrahan 1",
+      "thiessen_area_km2": 21.74,
+      "thiessen_weight_pct": 0.36,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 104.0,
+      "avg_rainy_season_reading": 11.1,
+      "max_daily_rain": 104.0,
+      "max_daily_date": "03 Apr 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 11.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "1371": {
+      "station_id": "1371",
+      "name": "Rumah Pompa Pasar Ikan 1",
+      "thiessen_area_km2": 6.14,
+      "thiessen_weight_pct": 0.1,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 213.8,
+      "avg_rainy_season_reading": 7.9,
+      "max_daily_rain": 213.8,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 7.9,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "1372": {
+      "station_id": "1372",
+      "name": "P.A Karet 1",
+      "thiessen_area_km2": 15.68,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 125.0,
+      "avg_rainy_season_reading": 10.9,
+      "max_daily_rain": 125.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 10.9,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "1373": {
+      "station_id": "1373",
+      "name": "P.A yos Sudarso 1",
+      "thiessen_area_km2": 17.04,
+      "thiessen_weight_pct": 0.28,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 185.0,
+      "avg_rainy_season_reading": 9.5,
+      "max_daily_rain": 185.0,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 9.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1374": {
+      "station_id": "1374",
+      "name": "Rumah Pompa Cideng 1",
+      "thiessen_area_km2": 160.74,
+      "thiessen_weight_pct": 2.64,
+      "matched_das": "Das Cimanceuri",
+      "max_rain_reading": 140.4,
+      "avg_rainy_season_reading": 9.9,
+      "max_daily_rain": 140.4,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 9.9,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cimanceuri",
+        "max_daily_mm": 134.9,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 6,
+        "area_km2": 469.9
+      }
+    },
+    "1375": {
+      "station_id": "1375",
+      "name": "P.A Marina Ancol 1",
+      "thiessen_area_km2": 2.58,
+      "thiessen_weight_pct": 0.04,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 176.2,
+      "avg_rainy_season_reading": 9.4,
+      "max_daily_rain": 176.2,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 9.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "1376": {
+      "station_id": "1376",
+      "name": "Rumah Pompa Pluit 1",
+      "thiessen_area_km2": 9.06,
+      "thiessen_weight_pct": 0.15,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 164.2,
+      "avg_rainy_season_reading": 10.3,
+      "max_daily_rain": 164.2,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "1377": {
+      "station_id": "1377",
+      "name": "P.A Kaliduri 1",
+      "thiessen_area_km2": 14.17,
+      "thiessen_weight_pct": 0.23,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 196.0,
+      "avg_rainy_season_reading": 10.6,
+      "max_daily_rain": 196.0,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.6,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "1378": {
+      "station_id": "1378",
+      "name": "P.A Ancol Flusing 1",
+      "thiessen_area_km2": 5.31,
+      "thiessen_weight_pct": 0.09,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 224.0,
+      "avg_rainy_season_reading": 10.6,
+      "max_daily_rain": 224.0,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.6,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "1379": {
+      "station_id": "1379",
+      "name": "P.A Jembatan Merah 1",
+      "thiessen_area_km2": 7.66,
+      "thiessen_weight_pct": 0.13,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 202.5,
+      "avg_rainy_season_reading": 9.4,
+      "max_daily_rain": 202.5,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 9.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "1380": {
+      "station_id": "1380",
+      "name": "P.A Istiqal 1",
+      "thiessen_area_km2": 12.25,
+      "thiessen_weight_pct": 0.2,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 177.8,
+      "avg_rainy_season_reading": 11.2,
+      "max_daily_rain": 177.8,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 11.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "1381": {
+      "station_id": "1381",
+      "name": "Waduk Kampung Rambutan",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 144.8,
+      "avg_rainy_season_reading": 9.0,
+      "max_daily_rain": 144.8,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 9.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1370": {
+      "station_id": "1370",
+      "name": "P.A Pulogadung 1",
+      "thiessen_area_km2": 9.6,
+      "thiessen_weight_pct": 0.16,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 150.0,
+      "avg_rainy_season_reading": 9.8,
+      "max_daily_rain": 150.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 9.8,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "306": {
+      "station_id": "306",
+      "name": "SCH. Katulampa",
+      "thiessen_area_km2": 52.91,
+      "thiessen_weight_pct": 0.87,
+      "matched_das": "Das Cisadane",
+      "max_rain_reading": 67.0,
+      "avg_rainy_season_reading": 5.1,
+      "max_daily_rain": 67.0,
+      "max_daily_date": "22 Nov 2025",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 5.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cisadane",
+        "max_daily_mm": 90.4,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.5,
+        "station_count": 16,
+        "area_km2": 1634.1
+      }
+    },
+    "1382": {
+      "station_id": "1382",
+      "name": "P.A HEK KRAMAT JATI (BARU)",
+      "thiessen_area_km2": 16.33,
+      "thiessen_weight_pct": 0.27,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 137.5,
+      "avg_rainy_season_reading": 9.8,
+      "max_daily_rain": 137.5,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 9.8,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "315": {
+      "station_id": "315",
+      "name": "Manggarai 2",
+      "thiessen_area_km2": 15.68,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 237.0,
+      "avg_rainy_season_reading": 16.3,
+      "max_daily_rain": 237.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 16.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "317": {
+      "station_id": "317",
+      "name": "Depok 2",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 74.0,
+      "avg_rainy_season_reading": 9.1,
+      "max_daily_rain": 74.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 9.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1383": {
+      "station_id": "1383",
+      "name": "P.A. Pulogadung 2",
+      "thiessen_area_km2": 12.89,
+      "thiessen_weight_pct": 0.21,
+      "matched_das": "Das Cakung",
+      "max_rain_reading": 174.0,
+      "avg_rainy_season_reading": 10.8,
+      "max_daily_rain": 174.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.8,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cakung",
+        "max_daily_mm": 148.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.8,
+        "station_count": 12,
+        "area_km2": 143.1
+      }
+    },
+    "318": {
+      "station_id": "318",
+      "name": "Kel. Rorotan",
+      "thiessen_area_km2": 203.66,
+      "thiessen_weight_pct": 3.35,
+      "matched_das": "Das Bekasi",
+      "max_rain_reading": 153.8,
+      "avg_rainy_season_reading": 10.2,
+      "max_daily_rain": 153.8,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Bekasi",
+        "max_daily_mm": 79.7,
+        "max_date_raw": "2026-01-17",
+        "max_date": "17 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.9,
+        "station_count": 17,
+        "area_km2": 1454.1
+      }
+    },
+    "319": {
+      "station_id": "319",
+      "name": "Kel. Pondok Kelapa",
+      "thiessen_area_km2": 48.23,
+      "thiessen_weight_pct": 0.79,
+      "matched_das": "Das Cakung",
+      "max_rain_reading": 190.0,
+      "avg_rainy_season_reading": 11.2,
+      "max_daily_rain": 190.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 11.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cakung",
+        "max_daily_mm": 148.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.8,
+        "station_count": 12,
+        "area_km2": 143.1
+      }
+    },
+    "321": {
+      "station_id": "321",
+      "name": "Cimanggis",
+      "thiessen_area_km2": 36.09,
+      "thiessen_weight_pct": 0.59,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 154.0,
+      "avg_rainy_season_reading": 10.2,
+      "max_daily_rain": 154.0,
+      "max_daily_date": "03 Des 2025",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "322": {
+      "station_id": "322",
+      "name": "Pekayon",
+      "thiessen_area_km2": 24.34,
+      "thiessen_weight_pct": 0.4,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 149.0,
+      "avg_rainy_season_reading": 9.5,
+      "max_daily_rain": 149.0,
+      "max_daily_date": "21 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 9.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "323": {
+      "station_id": "323",
+      "name": "Kel. Balekambang",
+      "thiessen_area_km2": 12.23,
+      "thiessen_weight_pct": 0.2,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 164.5,
+      "avg_rainy_season_reading": 13.0,
+      "max_daily_rain": 164.5,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 13.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "325": {
+      "station_id": "325",
+      "name": "Kel. Duri Kosambi",
+      "thiessen_area_km2": 20.48,
+      "thiessen_weight_pct": 0.34,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 136.5,
+      "avg_rainy_season_reading": 9.4,
+      "max_daily_rain": 136.5,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 9.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "326": {
+      "station_id": "326",
+      "name": "Kel. Joglo",
+      "thiessen_area_km2": 23.37,
+      "thiessen_weight_pct": 0.38,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 148.3,
+      "avg_rainy_season_reading": 10.3,
+      "max_daily_rain": 148.3,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 10.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "327": {
+      "station_id": "327",
+      "name": "Sodetan Kali Grogol",
+      "thiessen_area_km2": 12.15,
+      "thiessen_weight_pct": 0.2,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 151.0,
+      "avg_rainy_season_reading": 11.0,
+      "max_daily_rain": 151.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 11.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "328": {
+      "station_id": "328",
+      "name": "Lebak Bulus",
+      "thiessen_area_km2": 11.86,
+      "thiessen_weight_pct": 0.19,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 119.0,
+      "avg_rainy_season_reading": 10.4,
+      "max_daily_rain": 119.0,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 10.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "329": {
+      "station_id": "329",
+      "name": "Kel. Pondok Labu",
+      "thiessen_area_km2": 11.76,
+      "thiessen_weight_pct": 0.19,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 113.2,
+      "avg_rainy_season_reading": 9.0,
+      "max_daily_rain": 113.2,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 9.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "330": {
+      "station_id": "330",
+      "name": "Kec. Pasar Minggu",
+      "thiessen_area_km2": 10.96,
+      "thiessen_weight_pct": 0.18,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 151.8,
+      "avg_rainy_season_reading": 9.9,
+      "max_daily_rain": 151.8,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 9.9,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "331": {
+      "station_id": "331",
+      "name": "Kel. Gunung",
+      "thiessen_area_km2": 15.14,
+      "thiessen_weight_pct": 0.25,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 148.0,
+      "avg_rainy_season_reading": 11.1,
+      "max_daily_rain": 148.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 11.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "332": {
+      "station_id": "332",
+      "name": "Desa Bojong Murni",
+      "thiessen_area_km2": 241.06,
+      "thiessen_weight_pct": 3.96,
+      "matched_das": "Das Cisadane",
+      "max_rain_reading": 104.0,
+      "avg_rainy_season_reading": 11.3,
+      "max_daily_rain": 104.0,
+      "max_daily_date": "29 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 11.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cisadane",
+        "max_daily_mm": 90.4,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.5,
+        "station_count": 16,
+        "area_km2": 1634.1
+      }
+    },
+    "333": {
+      "station_id": "333",
+      "name": "Kel. Kedung Jaya",
+      "thiessen_area_km2": 241.06,
+      "thiessen_weight_pct": 3.96,
+      "matched_das": "Das Cisadane",
+      "max_rain_reading": 134.0,
+      "avg_rainy_season_reading": 8.9,
+      "max_daily_rain": 134.0,
+      "max_daily_date": "18 Mei 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 8.9,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cisadane",
+        "max_daily_mm": 90.4,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.5,
+        "station_count": 16,
+        "area_km2": 1634.1
+      }
+    },
+    "334": {
+      "station_id": "334",
+      "name": "Kec. Megamendung",
+      "thiessen_area_km2": 241.06,
+      "thiessen_weight_pct": 3.96,
+      "matched_das": "Das Cisadane",
+      "max_rain_reading": 115.0,
+      "avg_rainy_season_reading": 11.3,
+      "max_daily_rain": 115.0,
+      "max_daily_date": "29 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 11.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cisadane",
+        "max_daily_mm": 90.4,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.5,
+        "station_count": 16,
+        "area_km2": 1634.1
+      }
+    },
+    "335": {
+      "station_id": "335",
+      "name": "Kec. Ciputat Timur",
+      "thiessen_area_km2": 32.32,
+      "thiessen_weight_pct": 0.53,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 99.5,
+      "avg_rainy_season_reading": 8.3,
+      "max_daily_rain": 99.5,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 8.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "336": {
+      "station_id": "336",
+      "name": "Kel. Pondok Jagung Timur",
+      "thiessen_area_km2": 340.79,
+      "thiessen_weight_pct": 5.6,
+      "matched_das": "Das Cimanceuri",
+      "max_rain_reading": 144.0,
+      "avg_rainy_season_reading": 9.4,
+      "max_daily_rain": 144.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 9.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cimanceuri",
+        "max_daily_mm": 134.9,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 6,
+        "area_km2": 469.9
+      }
+    },
+    "337": {
+      "station_id": "337",
+      "name": "Kel. Batu Ceper",
+      "thiessen_area_km2": 364.48,
+      "thiessen_weight_pct": 5.99,
+      "matched_das": "Das Cirarab",
+      "max_rain_reading": 143.5,
+      "avg_rainy_season_reading": 8.1,
+      "max_daily_rain": 143.5,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 8.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cirarab",
+        "max_daily_mm": 136.2,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.0,
+        "station_count": 4,
+        "area_km2": 178.9
+      }
+    },
+    "338": {
+      "station_id": "338",
+      "name": "PDAM Cibinong",
+      "thiessen_area_km2": 84.67,
+      "thiessen_weight_pct": 1.39,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 109.0,
+      "avg_rainy_season_reading": 13.6,
+      "max_daily_rain": 109.0,
+      "max_daily_date": "18 Mei 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 13.6,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "340": {
+      "station_id": "340",
+      "name": "Kel. Pengasinan",
+      "thiessen_area_km2": 36.91,
+      "thiessen_weight_pct": 0.61,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 94.0,
+      "avg_rainy_season_reading": 9.6,
+      "max_daily_rain": 94.0,
+      "max_daily_date": "19 Apr 2026",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 9.6,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "341": {
+      "station_id": "341",
+      "name": "Kel. Pancoran Mas",
+      "thiessen_area_km2": 33.27,
+      "thiessen_weight_pct": 0.55,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 106.0,
+      "avg_rainy_season_reading": 10.6,
+      "max_daily_rain": 106.0,
+      "max_daily_date": "30 Apr 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 10.6,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "343": {
+      "station_id": "343",
+      "name": "Kel. Kamal Muara",
+      "thiessen_area_km2": 108.68,
+      "thiessen_weight_pct": 1.79,
+      "matched_das": "Das Cikapadilan",
+      "max_rain_reading": 200.0,
+      "avg_rainy_season_reading": 10.7,
+      "max_daily_rain": 200.0,
+      "max_daily_date": "12 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.7,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cikapadilan",
+        "max_daily_mm": 154.8,
+        "max_date_raw": "2026-01-12",
+        "max_date": "12 Jan 2026",
+        "bmkg_category": "Hujan Ekstrem",
+        "avg_wet_season_mm": 10.0,
+        "station_count": 4,
+        "area_km2": 87.2
+      }
+    },
+    "344": {
+      "station_id": "344",
+      "name": "Kel. Pela Mampang",
+      "thiessen_area_km2": 14.11,
+      "thiessen_weight_pct": 0.23,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 157.0,
+      "avg_rainy_season_reading": 10.5,
+      "max_daily_rain": 157.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "346": {
+      "station_id": "346",
+      "name": "Kel. Cengkareng Barat",
+      "thiessen_area_km2": 19.07,
+      "thiessen_weight_pct": 0.31,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 129.8,
+      "avg_rainy_season_reading": 9.5,
+      "max_daily_rain": 129.8,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 9.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "347": {
+      "station_id": "347",
+      "name": "Kel. Sunter Jaya",
+      "thiessen_area_km2": 16.57,
+      "thiessen_weight_pct": 0.27,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 186.0,
+      "avg_rainy_season_reading": 10.0,
+      "max_daily_rain": 186.0,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "348": {
+      "station_id": "348",
+      "name": "Kel. Kedaung Kali Angke",
+      "thiessen_area_km2": 16.15,
+      "thiessen_weight_pct": 0.27,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 137.0,
+      "avg_rainy_season_reading": 10.4,
+      "max_daily_rain": 137.0,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 10.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "350": {
+      "station_id": "350",
+      "name": "Kel. Penggilingan",
+      "thiessen_area_km2": 18.62,
+      "thiessen_weight_pct": 0.31,
+      "matched_das": "Das Cakung",
+      "max_rain_reading": 151.0,
+      "avg_rainy_season_reading": 9.8,
+      "max_daily_rain": 151.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 9.8,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cakung",
+        "max_daily_mm": 148.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.8,
+        "station_count": 12,
+        "area_km2": 143.1
+      }
+    },
+    "351": {
+      "station_id": "351",
+      "name": "Kel. Kelapa Gading Timur",
+      "thiessen_area_km2": 16.67,
+      "thiessen_weight_pct": 0.27,
+      "matched_das": "Das Cakung",
+      "max_rain_reading": 202.2,
+      "avg_rainy_season_reading": 11.3,
+      "max_daily_rain": 202.2,
+      "max_daily_date": "17 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 11.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cakung",
+        "max_daily_mm": 148.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.8,
+        "station_count": 12,
+        "area_km2": 143.1
+      }
+    },
+    "353": {
+      "station_id": "353",
+      "name": "Sunter Hulu",
+      "thiessen_area_km2": 38.13,
+      "thiessen_weight_pct": 0.63,
+      "matched_das": "Das Cakung",
+      "max_rain_reading": 272.5,
+      "avg_rainy_season_reading": 12.5,
+      "max_daily_rain": 272.5,
+      "max_daily_date": "07 Mar 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 12.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cakung",
+        "max_daily_mm": 148.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.8,
+        "station_count": 12,
+        "area_km2": 143.1
+      }
+    },
+    "1364": {
+      "station_id": "1364",
+      "name": "Bendung Cibalok (Baru)",
+      "thiessen_area_km2": 153.16,
+      "thiessen_weight_pct": 2.52,
+      "matched_das": "Das Bekasi",
+      "max_rain_reading": 144.0,
+      "avg_rainy_season_reading": 12.5,
+      "max_daily_rain": 144.0,
+      "max_daily_date": "29 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 12.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Bekasi",
+        "max_daily_mm": 79.7,
+        "max_date_raw": "2026-01-17",
+        "max_date": "17 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.9,
+        "station_count": 17,
+        "area_km2": 1454.1
+      }
+    },
+    "1385": {
+      "station_id": "1385",
+      "name": "Jembatan Pasir Jambu",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 95.0,
+      "avg_rainy_season_reading": 13.5,
+      "max_daily_rain": 95.0,
+      "max_daily_date": "06 Des 2025",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 13.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1386": {
+      "station_id": "1386",
+      "name": "Jembatan Kuning Cikambangan",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 129.0,
+      "avg_rainy_season_reading": 12.4,
+      "max_daily_rain": 129.0,
+      "max_daily_date": "21 Mar 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 12.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1387": {
+      "station_id": "1387",
+      "name": "Jembatan Jalan Raya Tapos",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 98.0,
+      "avg_rainy_season_reading": 11.1,
+      "max_daily_rain": 98.0,
+      "max_daily_date": "24 Mei 2026",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 11.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1388": {
+      "station_id": "1388",
+      "name": "Jembatan MT. Haryono",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 217.7,
+      "avg_rainy_season_reading": 14.2,
+      "max_daily_rain": 217.7,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 14.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1389": {
+      "station_id": "1389",
+      "name": "Rumah Pompa Tipala",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 166.7,
+      "avg_rainy_season_reading": 12.7,
+      "max_daily_rain": 166.7,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 12.7,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1390": {
+      "station_id": "1390",
+      "name": "Taman Jati Cimel",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 204.7,
+      "avg_rainy_season_reading": 14.2,
+      "max_daily_rain": 204.7,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 14.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1391": {
+      "station_id": "1391",
+      "name": "Waduk Kaja Ciracas",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 132.0,
+      "avg_rainy_season_reading": 12.9,
+      "max_daily_rain": 132.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 12.9,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1392": {
+      "station_id": "1392",
+      "name": "Jembatan Jl. Laksamana Malahayati",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 197.0,
+      "avg_rainy_season_reading": 13.2,
+      "max_daily_rain": 197.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 13.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1393": {
+      "station_id": "1393",
+      "name": "Jembatan Kali Krukut",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 110.0,
+      "avg_rainy_season_reading": 12.5,
+      "max_daily_rain": 110.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 12.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1394": {
+      "station_id": "1394",
+      "name": "Rumah Pompa Kemang 2",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 173.0,
+      "avg_rainy_season_reading": 12.0,
+      "max_daily_rain": 173.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 12.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1395": {
+      "station_id": "1395",
+      "name": "Rumah Pompa Atma Jaya",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 153.0,
+      "avg_rainy_season_reading": 13.3,
+      "max_daily_rain": 153.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 13.3,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1396": {
+      "station_id": "1396",
+      "name": "Posko SDA Palmerah",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 129.0,
+      "avg_rainy_season_reading": 11.5,
+      "max_daily_rain": 129.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 11.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1397": {
+      "station_id": "1397",
+      "name": "Waduk Cilangkap ",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 170.0,
+      "avg_rainy_season_reading": 12.1,
+      "max_daily_rain": 170.0,
+      "max_daily_date": "21 Mar 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 12.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1398": {
+      "station_id": "1398",
+      "name": "UPTD PAL Kota Bogor",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 140.0,
+      "avg_rainy_season_reading": 14.2,
+      "max_daily_rain": 140.0,
+      "max_daily_date": "29 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 14.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1399": {
+      "station_id": "1399",
+      "name": "Taman Wates Asri ",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 122.0,
+      "avg_rainy_season_reading": 11.5,
+      "max_daily_rain": 122.0,
+      "max_daily_date": "05 Mei 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 11.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1400": {
+      "station_id": "1400",
+      "name": "Kantor Kelurahan Jatiranggon",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 120.0,
+      "avg_rainy_season_reading": 12.5,
+      "max_daily_rain": 120.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 12.5,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1401": {
+      "station_id": "1401",
+      "name": "Kantor Kelurahan Tegallega",
+      "thiessen_area_km2": 15.88,
+      "thiessen_weight_pct": 0.26,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 141.0,
+      "avg_rainy_season_reading": 14.1,
+      "max_daily_rain": 141.0,
+      "max_daily_date": "19 Apr 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 14.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "1403": {
+      "station_id": "1403",
+      "name": "Jembatan Perumahan Bumi Serpong Residence",
+      "thiessen_area_km2": 144.48,
+      "thiessen_weight_pct": 2.38,
+      "matched_das": "Das Cimanceuri",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cimanceuri",
+        "max_daily_mm": 134.9,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 6,
+        "area_km2": 469.9
+      }
+    },
+    "1404": {
+      "station_id": "1404",
+      "name": "Gudang Kembangan Sudin SDA Jakarta Barat",
+      "thiessen_area_km2": 11.57,
+      "thiessen_weight_pct": 0.19,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "1405": {
+      "station_id": "1405",
+      "name": "Kantor Lurah Cilendek Barat",
+      "thiessen_area_km2": 629.66,
+      "thiessen_weight_pct": 10.35,
+      "matched_das": "Das Cisadane",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cisadane",
+        "max_daily_mm": 90.4,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.5,
+        "station_count": 16,
+        "area_km2": 1634.1
+      }
+    },
+    "1406": {
+      "station_id": "1406",
+      "name": "Dinas SDABMBK Tangsel",
+      "thiessen_area_km2": 100.87,
+      "thiessen_weight_pct": 1.66,
+      "matched_das": "Das Cisadane",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cisadane",
+        "max_daily_mm": 90.4,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.5,
+        "station_count": 16,
+        "area_km2": 1634.1
+      }
+    },
+    "1407": {
+      "station_id": "1407",
+      "name": "Kantor Lurah Srengseng",
+      "thiessen_area_km2": 14.38,
+      "thiessen_weight_pct": 0.24,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "1408": {
+      "station_id": "1408",
+      "name": "Jembatan Perumahan Bukit Pesanggrahan Indah 2",
+      "thiessen_area_km2": 29.07,
+      "thiessen_weight_pct": 0.48,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "1409": {
+      "station_id": "1409",
+      "name": "Kantor Desa Tonjong",
+      "thiessen_area_km2": 156.13,
+      "thiessen_weight_pct": 2.57,
+      "matched_das": "Das Cisadane",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cisadane",
+        "max_daily_mm": 90.4,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.5,
+        "station_count": 16,
+        "area_km2": 1634.1
+      }
+    },
+    "1410": {
+      "station_id": "1410",
+      "name": "Kantor Desa Curug",
+      "thiessen_area_km2": 271.24,
+      "thiessen_weight_pct": 4.46,
+      "matched_das": "Das Cimanceuri",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Cimanceuri",
+        "max_daily_mm": 134.9,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 6,
+        "area_km2": 469.9
+      }
+    },
+    "1411": {
+      "station_id": "1411",
+      "name": "Kantor Lurah Pondok Cabe Ilir",
+      "thiessen_area_km2": 28.01,
+      "thiessen_weight_pct": 0.46,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "1412": {
+      "station_id": "1412",
+      "name": "Rumah Pompa Patra",
+      "thiessen_area_km2": 13.25,
+      "thiessen_weight_pct": 0.22,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "1413": {
+      "station_id": "1413",
+      "name": "TPU Tanah Kusir",
+      "thiessen_area_km2": 14.7,
+      "thiessen_weight_pct": 0.24,
+      "matched_das": "Das Angke",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Angke",
+        "max_daily_mm": 107.6,
+        "max_date_raw": "2026-03-07",
+        "max_date": "07 Mar 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 9.3,
+        "station_count": 31,
+        "area_km2": 500.3
+      }
+    },
+    "1414": {
+      "station_id": "1414",
+      "name": "SPALD Setu Babakan",
+      "thiessen_area_km2": 22.73,
+      "thiessen_weight_pct": 0.37,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "1415": {
+      "station_id": "1415",
+      "name": "Puskesmas Kotabaru",
+      "thiessen_area_km2": 300.68,
+      "thiessen_weight_pct": 4.94,
+      "matched_das": "Das Bekasi",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Bekasi",
+        "max_daily_mm": 79.7,
+        "max_date_raw": "2026-01-17",
+        "max_date": "17 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.9,
+        "station_count": 17,
+        "area_km2": 1454.1
+      }
+    },
+    "1416": {
+      "station_id": "1416",
+      "name": "UPST Bantar Gebang",
+      "thiessen_area_km2": 503.94,
+      "thiessen_weight_pct": 8.29,
+      "matched_das": "Das Bekasi",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Bekasi",
+        "max_daily_mm": 79.7,
+        "max_date_raw": "2026-01-17",
+        "max_date": "17 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.9,
+        "station_count": 17,
+        "area_km2": 1454.1
+      }
+    },
+    "1417": {
+      "station_id": "1417",
+      "name": "Rumah Pompa Bulak Cabe",
+      "thiessen_area_km2": 142.15,
+      "thiessen_weight_pct": 2.34,
+      "matched_das": "Das Bekasi",
+      "max_rain_reading": 0.0,
+      "avg_rainy_season_reading": 0.0,
+      "max_daily_rain": 0.0,
+      "max_daily_date": "31 Agu 2026",
+      "max_daily_bmkg": "Berawan/Nihil",
+      "avg_rainy_season_daily": 0.0,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Bekasi",
+        "max_daily_mm": 79.7,
+        "max_date_raw": "2026-01-17",
+        "max_date": "17 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.9,
+        "station_count": 17,
+        "area_km2": 1454.1
+      }
+    },
+    "352": {
+      "station_id": "352",
+      "name": "Kel. Koja",
+      "thiessen_area_km2": 18.53,
+      "thiessen_weight_pct": 0.3,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 186.0,
+      "avg_rainy_season_reading": 10.2,
+      "max_daily_rain": 186.0,
+      "max_daily_date": "12 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.2,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    },
+    "345": {
+      "station_id": "345",
+      "name": "Kel. Bukit Duri",
+      "thiessen_area_km2": 25.4,
+      "thiessen_weight_pct": 0.42,
+      "matched_das": "Das Ciliwung",
+      "max_rain_reading": 156.0,
+      "avg_rainy_season_reading": 10.1,
+      "max_daily_rain": 156.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.1,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Ciliwung",
+        "max_daily_mm": 80.7,
+        "max_date_raw": "2026-01-29",
+        "max_date": "29 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 11.0,
+        "station_count": 55,
+        "area_km2": 717.8
+      }
+    },
+    "349": {
+      "station_id": "349",
+      "name": "Kec. Mampang Prapatan",
+      "thiessen_area_km2": 9.42,
+      "thiessen_weight_pct": 0.15,
+      "matched_das": "Das Krukut",
+      "max_rain_reading": 176.0,
+      "avg_rainy_season_reading": 10.7,
+      "max_daily_rain": 176.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Ekstrem",
+      "avg_rainy_season_daily": 10.7,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Krukut",
+        "max_daily_mm": 114.4,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 10.3,
+        "station_count": 26,
+        "area_km2": 172.0
+      }
+    },
+    "342": {
+      "station_id": "342",
+      "name": "Kel. Cilangkap",
+      "thiessen_area_km2": 189.84,
+      "thiessen_weight_pct": 3.12,
+      "matched_das": "Das Bekasi",
+      "max_rain_reading": 85.0,
+      "avg_rainy_season_reading": 10.6,
+      "max_daily_rain": 85.0,
+      "max_daily_date": "11 Jan 2026",
+      "max_daily_bmkg": "Hujan Lebat",
+      "avg_rainy_season_daily": 10.6,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Bekasi",
+        "max_daily_mm": 79.7,
+        "max_date_raw": "2026-01-17",
+        "max_date": "17 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.9,
+        "station_count": 17,
+        "area_km2": 1454.1
+      }
+    },
+    "339": {
+      "station_id": "339",
+      "name": "Kec. Jatisampurna",
+      "thiessen_area_km2": 76.49,
+      "thiessen_weight_pct": 1.26,
+      "matched_das": "Das Bekasi",
+      "max_rain_reading": 102.0,
+      "avg_rainy_season_reading": 8.9,
+      "max_daily_rain": 102.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 8.9,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Bekasi",
+        "max_daily_mm": 79.7,
+        "max_date_raw": "2026-01-17",
+        "max_date": "17 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.9,
+        "station_count": 17,
+        "area_km2": 1454.1
+      }
+    },
+    "320": {
+      "station_id": "320",
+      "name": "Kel. Lubang Buaya",
+      "thiessen_area_km2": 24.93,
+      "thiessen_weight_pct": 0.41,
+      "matched_das": "Das Sunter",
+      "max_rain_reading": 134.0,
+      "avg_rainy_season_reading": 10.4,
+      "max_daily_rain": 134.0,
+      "max_daily_date": "22 Jan 2026",
+      "max_daily_bmkg": "Hujan Sangat Lebat",
+      "avg_rainy_season_daily": 10.4,
+      "regional_thiessen": {
+        "max_daily_mm": 88.5,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Lebat",
+        "avg_wet_season_mm": 10.4,
+        "active_stations": 72,
+        "area_km2": 6081.3,
+        "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+      },
+      "das_thiessen": {
+        "das_name": "Das Sunter",
+        "max_daily_mm": 119.8,
+        "max_date_raw": "2026-01-22",
+        "max_date": "22 Jan 2026",
+        "bmkg_category": "Hujan Sangat Lebat",
+        "avg_wet_season_mm": 11.2,
+        "station_count": 39,
+        "area_km2": 441.6
+      }
+    }
+  },
+  "thiessen_regional_catchment": {
+    "max_daily_mm": 88.5,
+    "max_date_raw": "2026-01-22",
+    "max_date": "22 Jan 2026",
+    "bmkg_category": "Hujan Lebat",
+    "avg_wet_season_mm": 10.4,
+    "active_stations": 72,
+    "area_km2": 6081.3,
+    "method": "Poligon Thiessen (Wilayah Sungai / DAS Terpadu)"
+  }
+}

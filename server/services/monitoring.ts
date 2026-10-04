@@ -1,7 +1,14 @@
 import fs from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { parse } from 'csv-parse/sync';
 import { db, databaseAvailable } from '../db.js';
+
+function resolveStudyFile(name: string): string {
+  const p1 = path.resolve('docs/study', name);
+  if (existsSync(p1)) return p1;
+  return path.resolve('.build/study', name);
+}
 
 export type TMAStation = {
   station_id: string;
@@ -915,7 +922,7 @@ async function loadData() {
 
   try {
     // 1. Load TMA stations
-    const tmaRaw = await fs.readFile(path.resolve('.build/study/latest-tma.json'), 'utf8');
+    const tmaRaw = await fs.readFile(resolveStudyFile('latest-tma.json'), 'utf8');
     cachedTMA = JSON.parse(tmaRaw);
   } catch {
     cachedTMA = [];
@@ -923,7 +930,7 @@ async function loadData() {
 
   try {
     // 2. Load Rain stations
-    const rainRaw = await fs.readFile(path.resolve('.build/study/latest-ch.json'), 'utf8');
+    const rainRaw = await fs.readFile(resolveStudyFile('latest-ch.json'), 'utf8');
     cachedRain = JSON.parse(rainRaw);
   } catch {
     cachedRain = [];
@@ -931,7 +938,7 @@ async function loadData() {
 
   try {
     // 3. Load Flood Reports
-    const repRaw = await fs.readFile(path.resolve('.build/study/events.json'), 'utf8');
+    const repRaw = await fs.readFile(resolveStudyFile('events.json'), 'utf8');
     const rawList: any[] = JSON.parse(repRaw);
     cachedReports = rawList.map((r) => ({
       uid: r.uid,
@@ -952,21 +959,21 @@ async function loadData() {
 
   try {
     // 4. Load Infrastructure (Pumps, Gates, Waduk)
-    const pumpRaw = await fs.readFile(path.resolve('.build/study/infrastructure-pumps.json'), 'utf8');
+    const pumpRaw = await fs.readFile(resolveStudyFile('infrastructure-pumps.json'), 'utf8');
     cachedPumps = JSON.parse(pumpRaw);
   } catch {
     cachedPumps = [];
   }
 
   try {
-    const gateRaw = await fs.readFile(path.resolve('.build/study/infrastructure-gates.json'), 'utf8');
+    const gateRaw = await fs.readFile(resolveStudyFile('infrastructure-gates.json'), 'utf8');
     cachedGates = JSON.parse(gateRaw);
   } catch {
     cachedGates = [];
   }
 
   try {
-    const wadukRaw = await fs.readFile(path.resolve('.build/study/infrastructure-waduk.json'), 'utf8');
+    const wadukRaw = await fs.readFile(resolveStudyFile('infrastructure-waduk.json'), 'utf8');
     cachedWaduk = JSON.parse(wadukRaw);
   } catch {
     cachedWaduk = [];
@@ -974,7 +981,7 @@ async function loadData() {
 
   try {
     // 5. Load Precalculated Seasonal Stats
-    const seasonRaw = await fs.readFile(path.resolve('.build/study/station-seasonal-stats.json'), 'utf8');
+    const seasonRaw = await fs.readFile(resolveStudyFile('station-seasonal-stats.json'), 'utf8');
     const seasonData = JSON.parse(seasonRaw);
     cachedTMASeasonal = seasonData.tma_seasonal_stats || {};
     cachedRainSeasonal = seasonData.thiessen_station_stats || seasonData.ch_seasonal_stats || seasonData.rain_seasonal_stats || {};
@@ -1035,7 +1042,7 @@ async function loadData() {
     }
   } catch {
     try {
-      const transitRaw = await fs.readFile(path.resolve('.build/study/transit_stations.json'), 'utf8');
+      const transitRaw = await fs.readFile(resolveStudyFile('transit_stations.json'), 'utf8');
       cachedTransitStations = JSON.parse(transitRaw);
     } catch {
       cachedTransitStations = [];
@@ -2437,9 +2444,9 @@ let cachedThiessen: ThiessenFeatureCollection | null = null;
 export async function getMonitoringThiessen(): Promise<ThiessenFeatureCollection> {
   if (cachedThiessen) return cachedThiessen;
   try {
-    const raw = await fs.readFile(path.resolve('.build/study/thiessen-polygons.json'), 'utf8');
+    const raw = await fs.readFile(resolveStudyFile('thiessen-polygons.json'), 'utf8');
     const geo = JSON.parse(raw);
-    const seasonRaw = await fs.readFile(path.resolve('.build/study/station-seasonal-stats.json'), 'utf8');
+    const seasonRaw = await fs.readFile(resolveStudyFile('station-seasonal-stats.json'), 'utf8');
     const seasonData = JSON.parse(seasonRaw);
     cachedThiessen = {
       type: 'FeatureCollection',
