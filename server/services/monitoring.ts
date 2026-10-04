@@ -1242,6 +1242,19 @@ async function loadData() {
     } catch (err) {
       console.warn('Could not read fallback Objek Vital:', err);
     }
+
+    try {
+      const prData = JSON.parse(await fs.readFile(path.resolve('api/data/projects-2026.json'), 'utf8'));
+      if (Array.isArray(prData.data) && prData.data.length > 0) {
+        projects2026.push(...prData.data);
+      }
+      const invData = JSON.parse(await fs.readFile(path.resolve('api/data/investments.json'), 'utf8'));
+      if (Array.isArray(invData.data) && invData.data.length > 0) {
+        cachedInvestments = invData.data;
+        cachedProjects2026 = projects2026;
+        return;
+      }
+    } catch {}
   }
 
   // Compute spatial exposure for investments
@@ -2225,7 +2238,14 @@ export async function getMonitoringProjectDetail(idOrSlug: string | number) {
     console.warn('Could not query project details from DB:', err);
   }
 
-  return project;
+  return {
+    ...project,
+    sections: (project as any).sections?.length ? (project as any).sections : [
+      { id: 1, section_key: 'overview', title: 'Deskripsi Proyek', content: (project as any).project_profile || project.name, sort_order: 1 }
+    ],
+    images: (project as any).images || [],
+    contacts: (project as any).contacts || [],
+  };
 }
 
 export async function getMonitoringRivers(filters?: {
