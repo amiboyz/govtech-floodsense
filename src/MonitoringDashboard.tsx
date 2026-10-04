@@ -161,6 +161,36 @@ export type ThiessenFeatureCollection = {
   };
 };
 
+export type DasFeature = {
+  type: 'Feature';
+  geometry: any;
+  properties: {
+    AREA?: number;
+    PERIMETER?: number;
+    KODE?: string;
+    kode?: string;
+    NAMA_DAS: string;
+    name?: string;
+    WS?: string;
+    Luas?: number;
+    luas_ha?: number;
+    ch_stations?: number;
+    tma_stations?: number;
+    flood_reports?: number;
+    experiments_count?: number;
+    das_id?: string;
+  };
+};
+
+export type DasFeatureCollection = {
+  type: 'FeatureCollection';
+  features: DasFeature[];
+  summary?: {
+    total_das: number;
+    total_area_ha: number;
+  };
+};
+
 export type CompoundFloodIndices = {
   fluvial_score: number;
   pluvial_score: number;
@@ -617,6 +647,7 @@ type SelectedEntity =
   | { type: 'report'; data: FloodReport }
   | { type: 'river'; data: RiverFeature }
   | { type: 'waduk'; data: WadukStation }
+  | { type: 'das'; data: DasFeature }
   | { type: 'custom_location'; data: LocationEvaluation }
   | null;
 
@@ -672,6 +703,7 @@ export function MonitoringDashboard({
 
   // Layer toggles
   const [layerRivers, setLayerRivers] = useState(true);
+  const [layerDAS, setLayerDAS] = useState(true);
   const [layerThiessen, setLayerThiessen] = useState(false);
   const [layerTMA, setLayerTMA] = useState(true);
   const [layerRain, setLayerRain] = useState(true);
@@ -684,8 +716,9 @@ export function MonitoringDashboard({
   const [layerTransit, setLayerTransit] = useState(false);
   const [transitStations, setTransitStations] = useState<TransitStation[]>([]);
 
-  // River GeoJSON state
+  // River GeoJSON & DAS GeoJSON state
   const [riverCollection, setRiverCollection] = useState<RiverFeatureCollection | null>(null);
+  const [dasCollection, setDasCollection] = useState<DasFeatureCollection | null>(null);
   const [thiessenData, setThiessenData] = useState<ThiessenFeatureCollection | null>(null);
 
   // Custom arbitrary location evaluation state
@@ -698,7 +731,7 @@ export function MonitoringDashboard({
   const [stationHistory, setStationHistory] = useState<any[]>([]);
   const [stationHistoryPeriod, setStationHistoryPeriod] = useState<{ start?: string; end?: string; source?: string } | null>(null);
   const [historyLoading, setHistoryLoading] = useState(false);
-  const [bottomTab, setBottomTab] = useState<'projects' | 'tma' | 'rain' | 'investments' | 'reports' | 'rivers' | 'waduk'>('projects');
+  const [bottomTab, setBottomTab] = useState<'projects' | 'rivers' | 'das' | 'tma' | 'rain' | 'investments' | 'reports' | 'waduk'>('projects');
 
   // Interactive Resilience Mitigation Simulator state
   const [mitigations, setMitigations] = useState<{
@@ -861,7 +894,6 @@ export function MonitoringDashboard({
               <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '6px', padding: '8px' }}>
                 <span style={{ fontSize: '9.5px', color: '#64748b', display: 'block' }}>GANGGUAN USAHA (BI)</span>
                 <strong style={{ fontSize: '13px', color: '#0f172a' }}>
-                  {isMitigated 
                   {financialExposure.net_downtime_days != null
                     ? `${(financialExposure.net_downtime_days * (isMitigated ? (1 - reductionPct / 100) : 1)).toFixed(1)} Hari`
                     : isMitigated 
@@ -1206,8 +1238,7 @@ export function MonitoringDashboard({
     async function init() {
       setLoading(true);
       try {
-        const [sumRes, tmaRes, rainRes, invRes, projRes, repRes, infraRes, rivRes, thRes] = await Promise.allSettled([
-        const [sumRes, tmaRes, rainRes, invRes, projRes, repRes, infraRes, rivRes, thRes, transitRes] = await Promise.allSettled([
+        const [sumRes, tmaRes, rainRes, invRes, projRes, repRes, infraRes, rivRes, dasRes, thRes, transitRes] = await Promise.allSettled([
           fetch('/api/v1/monitoring/summary').then((r) => r.json()),
           fetch('/api/v1/monitoring/tma').then((r) => r.json()),
           fetch('/api/v1/monitoring/rain').then((r) => r.json()),
@@ -1216,6 +1247,7 @@ export function MonitoringDashboard({
           fetch('/api/v1/monitoring/flood-reports').then((r) => r.json()),
           fetch('/api/v1/monitoring/infrastructure').then((r) => r.json()),
           fetch('/api/v1/monitoring/rivers').then((r) => r.json()),
+          fetch('/api/v1/monitoring/das').then((r) => r.json()),
           fetch('/api/v1/monitoring/thiessen').then((r) => r.json()),
           fetch('/api/v1/monitoring/transit').then((r) => r.json()),
         ]);
@@ -1227,6 +1259,7 @@ export function MonitoringDashboard({
         if (projRes.status === 'fulfilled' && projRes.value?.data) setProjects2026(projRes.value.data);
         if (repRes.status === 'fulfilled' && repRes.value?.data) setFloodReports(repRes.value.data);
         if (rivRes.status === 'fulfilled' && rivRes.value?.data) setRiverCollection(rivRes.value.data);
+        if (dasRes.status === 'fulfilled' && dasRes.value?.data) setDasCollection(dasRes.value.data);
         if (thRes.status === 'fulfilled' && thRes.value?.data) setThiessenData(thRes.value.data);
         if (transitRes.status === 'fulfilled' && transitRes.value?.data) setTransitStations(transitRes.value.data);
         if (infraRes.status === 'fulfilled' && infraRes.value?.data) {
@@ -1774,9 +1807,10 @@ export function MonitoringDashboard({
                   <button
                     className="m-layer-group-btn"
                     onClick={() => {
-                      const allActive = layerRivers && layerThiessen && layerTMA && layerRain && layerReports && layerInfra && layerWaduk;
+                      const allActive = layerRivers && layerDAS && layerThiessen && layerTMA && layerRain && layerReports && layerInfra && layerWaduk;
                       const turnOn = !allActive;
                       setLayerRivers(turnOn);
+                      setLayerDAS(turnOn);
                       setLayerThiessen(turnOn);
                       setLayerTMA(turnOn);
                       setLayerRain(turnOn);
@@ -1785,7 +1819,7 @@ export function MonitoringDashboard({
                       setLayerWaduk(turnOn);
                     }}
                   >
-                    {layerRivers && layerThiessen && layerTMA && layerRain && layerReports && layerInfra && layerWaduk
+                    {layerRivers && layerDAS && layerThiessen && layerTMA && layerRain && layerReports && layerInfra && layerWaduk
                       ? 'Sembunyikan Semua'
                       : 'Tampilkan Semua'}
                   </button>
@@ -1798,6 +1832,14 @@ export function MonitoringDashboard({
                       onChange={(e) => setLayerRivers(e.target.checked)}
                     />
                     🌊 Jaringan Sungai ({filteredRivers?.features.length ?? 200})
+                  </label>
+                  <label className={`m-layer-chip ${layerDAS ? 'active c-das' : ''}`}>
+                    <input
+                      type="checkbox"
+                      checked={layerDAS}
+                      onChange={(e) => setLayerDAS(e.target.checked)}
+                    />
+                    🌐 Batas Wilayah DAS ({dasCollection?.features.length ?? 15})
                   </label>
                   <label className={`m-layer-chip ${layerThiessen ? 'active c-thiessen' : ''}`}>
                     <input
@@ -2007,6 +2049,69 @@ export function MonitoringDashboard({
                             color: orde === 1 ? '#1d4ed8' : orde === 2 ? '#0284c7' : '#0ea5e9',
                             weight: orde === 1 ? 3.5 : orde === 2 ? 2.2 : 1.5,
                             opacity: orde === 1 ? 0.9 : orde === 2 ? 0.8 : 0.7,
+                          });
+                        },
+                      });
+                    }}
+                  />
+                )}
+
+                {/* 0.05 Overlay Batas Wilayah DAS (Daerah Aliran Sungai / Catchment Areas) */}
+                {layerDAS && dasCollection && (
+                  <GeoJSON
+                    key={`das-${dasCollection.features.length}`}
+                    data={dasCollection as any}
+                    style={(feature) => {
+                      const isSelected =
+                        selectedEntity?.type === 'das' &&
+                        (selectedEntity.data.properties.NAMA_DAS === feature?.properties?.NAMA_DAS ||
+                          selectedEntity.data.properties.name === feature?.properties?.name);
+                      return {
+                        color: isSelected ? '#1e1b4b' : '#4f46e5',
+                        weight: isSelected ? 3.5 : 2,
+                        dashArray: isSelected ? undefined : '5, 4',
+                        fillColor: isSelected ? '#6366f1' : '#818cf8',
+                        fillOpacity: isSelected ? 0.28 : 0.09,
+                      };
+                    }}
+                    onEachFeature={(feature, layer) => {
+                      const p = feature.properties;
+                      const luasHa = p.luas_ha || p.Luas || 0;
+                      const luasKm2 = (luasHa / 100).toFixed(1);
+                      layer.bindTooltip(
+                        `<div style="font-size:11px; line-height: 1.45; min-width: 170px;">
+                          <strong style="color:#3730a3; font-size:12px;">🌐 ${p.NAMA_DAS || p.name}</strong><br/>
+                          <span>Kode: <b>${p.kode || p.KODE || '-'}</b> · WS: <b>${p.WS ? p.WS.substring(0, 16) + '...' : '-'}</b></span><br/>
+                          <span>Luas Catchment: <b>${Number(luasHa).toLocaleString('id-ID')} ha</b> (${luasKm2} km²)</span><br/>
+                          <span style="color:#0284c7;">🌧️ ${p.ch_stations ?? 0} Pos Hujan · 💧 ${p.tma_stations ?? 0} Pos TMA</span><br/>
+                          <span style="color:#ea580c;">⚠️ ${p.flood_reports ?? 0} Titik Laporan Riil</span>
+                        </div>`,
+                        { sticky: true, className: 'm-das-tooltip' }
+                      );
+                      layer.on({
+                        click: (e: any) => {
+                          if (e?.originalEvent) {
+                            L.DomEvent.stopPropagation(e.originalEvent);
+                          }
+                          setSelectedEntity({ type: 'das', data: feature as any });
+                        },
+                        mouseover: (e: any) => {
+                          e.target.setStyle({
+                            weight: 3.5,
+                            color: '#312e81',
+                            fillOpacity: 0.25,
+                          });
+                        },
+                        mouseout: (e: any) => {
+                          const isSelected =
+                            selectedEntity?.type === 'das' &&
+                            (selectedEntity.data.properties.NAMA_DAS === p.NAMA_DAS ||
+                              selectedEntity.data.properties.name === p.name);
+                          e.target.setStyle({
+                            color: isSelected ? '#1e1b4b' : '#4f46e5',
+                            weight: isSelected ? 3.5 : 2,
+                            dashArray: isSelected ? undefined : '5, 4',
+                            fillOpacity: isSelected ? 0.28 : 0.09,
                           });
                         },
                       });
@@ -2682,21 +2787,6 @@ export function MonitoringDashboard({
                 {/* Connectivity line from selected project to its nearest TMA station and Transit station */}
                 {selectedEntity?.type === 'project' &&
                   selectedEntity.data.latitude &&
-                  selectedEntity.data.longitude &&
-                  selectedEntity.data.nearest_tma && (
-                    (() => {
-                      const tmaStation = tmaList.find((s) => s.name === selectedEntity.data.nearest_tma?.name);
-                      if (!tmaStation) return null;
-                      return (
-                        <Polyline
-                          positions={[
-                            [selectedEntity.data.latitude!, selectedEntity.data.longitude!],
-                            [tmaStation.latitude, tmaStation.longitude],
-                          ]}
-                          pathOptions={{ color: '#d97706', dashArray: '6 4', weight: 2.5 }}
-                        />
-                      );
-                    })()
                   selectedEntity.data.longitude && (
                     <>
                       {selectedEntity.data.nearest_tma && (() => {
@@ -3737,6 +3827,197 @@ export function MonitoringDashboard({
                   })()}
                 </div>
               </div>
+            ) : selectedEntity.type === 'das' ? (
+              <div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+                  <span className="m-card-badge" style={{ background: '#eef2ff', color: '#3730a3', borderColor: '#c7d2fe', fontWeight: 700 }}>
+                    🌐 BATAS DAERAH ALIRAN SUNGAI (DAS)
+                  </span>
+                  <button
+                    onClick={() => setSelectedEntity(null)}
+                    style={{
+                      border: 'none',
+                      background: 'transparent',
+                      color: '#64748b',
+                      cursor: 'pointer',
+                      fontSize: '11px',
+                      fontWeight: 600,
+                    }}
+                  >
+                    ✕ Tutup
+                  </button>
+                </div>
+
+                <h3 className="m-detail-title">
+                  {selectedEntity.data.properties.NAMA_DAS || selectedEntity.data.properties.name}
+                </h3>
+                <div className="m-detail-sub">
+                  Kode Catchment: <strong>{selectedEntity.data.properties.kode || selectedEntity.data.properties.KODE || '-'}</strong>
+                  {selectedEntity.data.properties.WS && ` · ${selectedEntity.data.properties.WS}`}
+                </div>
+
+                <div className="m-detail-grid" style={{ marginTop: '12px' }}>
+                  <div className="m-detail-stat-box">
+                    <small>LUAS CATCHMENT</small>
+                    <strong style={{ color: '#4338ca' }}>
+                      {Number(selectedEntity.data.properties.luas_ha || selectedEntity.data.properties.Luas || 0).toLocaleString('id-ID')} Ha
+                    </strong>
+                    <span style={{ fontSize: '9.5px', color: '#64748b', display: 'block' }}>
+                      ≈ {((selectedEntity.data.properties.luas_ha || selectedEntity.data.properties.Luas || 0) / 100).toFixed(1)} km²
+                    </span>
+                  </div>
+                  <div className="m-detail-stat-box">
+                    <small>POS HUJAN (CH)</small>
+                    <strong style={{ color: '#0891b2' }}>
+                      {selectedEntity.data.properties.ch_stations ?? 0} Stasiun
+                    </strong>
+                    <span style={{ fontSize: '9.5px', color: '#64748b', display: 'block' }}>
+                      Pos pemantau curah
+                    </span>
+                  </div>
+                  <div className="m-detail-stat-box">
+                    <small>POS TMA MUKA AIR</small>
+                    <strong style={{ color: '#2563eb' }}>
+                      {selectedEntity.data.properties.tma_stations ?? 0} Sensor
+                    </strong>
+                    <span style={{ fontSize: '9.5px', color: '#64748b', display: 'block' }}>
+                      Pos debit / tinggi air
+                    </span>
+                  </div>
+                  <div className="m-detail-stat-box">
+                    <small>HISTORI BANJIR</small>
+                    <strong style={{ color: '#ea580c' }}>
+                      {selectedEntity.data.properties.flood_reports ?? 0} Titik
+                    </strong>
+                    <span style={{ fontSize: '9.5px', color: '#64748b', display: 'block' }}>
+                      Laporan riil tervalidasi
+                    </span>
+                  </div>
+                </div>
+
+                <div className="m-invest-risk-box" style={{ background: '#f8fafc', borderColor: '#cbd5e1', marginTop: '14px' }}>
+                  <div className="m-risk-tag" style={{ color: '#334155' }}>
+                    <Layers size={14} /> Karakteristik Hidrologi Catchment
+                  </div>
+                  <p style={{ margin: '4px 0 0', fontSize: '11px', color: '#475569', lineHeight: 1.5 }}>
+                    Catchment area ini merepresentasikan batas alami cekungan tangkapan air hujan hulu hingga hilir (Wilayah Sungai Cilicis). Presipitasi di area ini menentukan volume debit air yang mengalir ke hilir DKI Jakarta.
+                  </p>
+                </div>
+
+                {/* Pos TMA dalam DAS ini */}
+                <div style={{ marginTop: '16px' }}>
+                  <h4 style={{ fontSize: '12px', fontWeight: 800, color: '#334155', marginBottom: '8px' }}>
+                    Pos TMA Terkait di Catchment DAS Ini
+                  </h4>
+                  {(() => {
+                    const dasName = (selectedEntity.data.properties.NAMA_DAS || selectedEntity.data.properties.name || '').toLowerCase().replace('das ', '').trim();
+                    const relatedTma = tmaList.filter(
+                      (t) =>
+                        t.river.toLowerCase().includes(dasName) ||
+                        t.name.toLowerCase().includes(dasName)
+                    );
+                    if (relatedTma.length === 0) {
+                      return (
+                        <p style={{ fontSize: '11px', color: '#94a3b8', fontStyle: 'italic' }}>
+                          Sensor TMA utama terpantau di muara atau pos induk hilir.
+                        </p>
+                      );
+                    }
+                    return (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                        {relatedTma.slice(0, 6).map((t) => (
+                          <div
+                            key={t.station_id}
+                            style={{
+                              display: 'flex',
+                              justifyContent: 'space-between',
+                              alignItems: 'center',
+                              padding: '6px 10px',
+                              borderRadius: '6px',
+                              border: '1px solid #e2e8f0',
+                              background: '#f8fafc',
+                              fontSize: '11px',
+                              cursor: 'pointer',
+                            }}
+                            onClick={() => setSelectedEntity({ type: 'tma', data: t })}
+                          >
+                            <div>
+                              <strong>{t.name}</strong>
+                              <span style={{ marginLeft: '6px', color: '#64748b' }}>({t.level} cm)</span>
+                            </div>
+                            <span
+                              className={`m-card-badge ${
+                                t.siaga_level === 1
+                                  ? 'm-badge-s1'
+                                  : t.siaga_level === 2
+                                  ? 'm-badge-s2'
+                                  : t.siaga_level === 3
+                                  ? 'm-badge-s3'
+                                  : 'm-badge-s4'
+                              }`}
+                              style={{ padding: '2px 6px', fontSize: '9px' }}
+                            >
+                              {t.status}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    );
+                  })()}
+                </div>
+
+                {/* Pos Hujan dalam DAS ini */}
+                <div style={{ marginTop: '16px' }}>
+                  <h4 style={{ fontSize: '12px', fontWeight: 800, color: '#334155', marginBottom: '8px' }}>
+                    Pos Curah Hujan (CH) Terkait
+                  </h4>
+                  {(() => {
+                    const dasName = (selectedEntity.data.properties.NAMA_DAS || selectedEntity.data.properties.name || '').toLowerCase().replace('das ', '').trim();
+                    const relatedRain = rainList.filter(
+                      (r) =>
+                        r.das_polder.toLowerCase().includes(dasName) ||
+                        r.name.toLowerCase().includes(dasName) ||
+                        r.location.toLowerCase().includes(dasName)
+                    );
+                    if (relatedRain.length === 0) {
+                      return (
+                        <p style={{ fontSize: '11px', color: '#94a3b8', fontStyle: 'italic' }}>
+                          Stasiun pos hujan tersebar di sub-DAS terdekat.
+                        </p>
+                      );
+                    }
+                    return (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                        {relatedRain.slice(0, 5).map((r) => (
+                          <div
+                            key={r.station_id}
+                            style={{
+                              display: 'flex',
+                              justifyContent: 'space-between',
+                              alignItems: 'center',
+                              padding: '6px 10px',
+                              borderRadius: '6px',
+                              border: '1px solid #e2e8f0',
+                              background: '#f8fafc',
+                              fontSize: '11px',
+                              cursor: 'pointer',
+                            }}
+                            onClick={() => setSelectedEntity({ type: 'rain', data: r })}
+                          >
+                            <div>
+                              <strong>{r.name}</strong>
+                              <span style={{ marginLeft: '6px', color: '#64748b' }}>({r.location})</span>
+                            </div>
+                            <span className="m-card-badge" style={{ background: '#ecfeff', color: '#0891b2', borderColor: '#a5f3fc', padding: '2px 6px', fontSize: '9px' }}>
+                              {r.rain_current} mm ({r.intensity})
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    );
+                  })()}
+                </div>
+              </div>
             ) : selectedEntity.type === 'custom_location' ? (
               <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
@@ -4107,6 +4388,13 @@ export function MonitoringDashboard({
               🌊 Jaringan Sungai ({filteredRivers?.features.length ?? 200})
             </button>
             <button
+              className={`m-bottom-tab-btn ${bottomTab === 'das' ? 'active' : ''}`}
+              onClick={() => setBottomTab('das')}
+              style={{ fontWeight: 700, color: bottomTab === 'das' ? '#4f46e5' : undefined }}
+            >
+              🌐 Batas DAS ({dasCollection?.features.length ?? 15})
+            </button>
+            <button
               className={`m-bottom-tab-btn ${bottomTab === 'tma' ? 'active' : ''}`}
               onClick={() => setBottomTab('tma')}
             >
@@ -4262,6 +4550,86 @@ export function MonitoringDashboard({
                       </td>
                     </tr>
                   ))}
+                </tbody>
+              </table>
+            ) : bottomTab === 'das' ? (
+              <table className="m-table">
+                <thead>
+                  <tr>
+                    <th>Nama DAS (Catchment Area)</th>
+                    <th>Kode DAS</th>
+                    <th>Luas Catchment</th>
+                    <th>Wilayah Sungai (WS)</th>
+                    <th>Pos Curah Hujan</th>
+                    <th>Pos Sensor TMA</th>
+                    <th>Titik Laporan Banjir</th>
+                    <th>Aksi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {(dasCollection?.features || []).map((feat, idx) => {
+                    const p = feat.properties;
+                    const luasHa = p.luas_ha || p.Luas || 0;
+                    const isSelected =
+                      selectedEntity?.type === 'das' &&
+                      (selectedEntity.data.properties.NAMA_DAS === p.NAMA_DAS ||
+                        selectedEntity.data.properties.name === p.name);
+                    return (
+                      <tr key={p.kode || p.KODE || idx} style={isSelected ? { background: '#eef2ff' } : undefined}>
+                        <td>
+                          <strong style={{ color: '#3730a3' }}>🌐 {p.NAMA_DAS || p.name}</strong>
+                        </td>
+                        <td>
+                          <span className="m-badge-das">{p.kode || p.KODE || '-'}</span>
+                        </td>
+                        <td>
+                          <strong>{Number(luasHa).toLocaleString('id-ID')} Ha</strong>
+                          <small style={{ display: 'block', color: '#64748b', fontSize: '10px' }}>
+                            ≈ {(luasHa / 100).toFixed(1)} km²
+                          </small>
+                        </td>
+                        <td>
+                          <span style={{ fontSize: '11px', color: '#475569' }}>
+                            {p.WS ? (p.WS.length > 28 ? p.WS.substring(0, 28) + '...' : p.WS) : 'WS Ciliwung-Cisadane'}
+                          </span>
+                        </td>
+                        <td>
+                          <span className="m-card-badge" style={{ background: '#ecfeff', color: '#0891b2', borderColor: '#a5f3fc' }}>
+                            🌧️ {p.ch_stations ?? 0} Stasiun
+                          </span>
+                        </td>
+                        <td>
+                          <span className="m-card-badge" style={{ background: '#eff6ff', color: '#1d4ed8', borderColor: '#bfdbfe' }}>
+                            💧 {p.tma_stations ?? 0} Sensor
+                          </span>
+                        </td>
+                        <td>
+                          <span className="m-card-badge" style={{ background: '#fff7ed', color: '#c2410c', borderColor: '#fed7aa' }}>
+                            ⚠️ {p.flood_reports ?? 0} Titik
+                          </span>
+                        </td>
+                        <td>
+                          <button
+                            className="m-pill-btn"
+                            style={{
+                              padding: '3px 8px',
+                              fontSize: '10px',
+                              background: isSelected ? '#4338ca' : '#eef2ff',
+                              color: isSelected ? '#ffffff' : '#3730a3',
+                              borderColor: '#c7d2fe',
+                              fontWeight: 700,
+                            }}
+                            onClick={() => {
+                              setSelectedEntity({ type: 'das', data: feat });
+                              setLayerDAS(true);
+                            }}
+                          >
+                            {isSelected ? '✓ Terpilih' : 'Sorot & Analisis'}
+                          </button>
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             ) : bottomTab === 'tma' ? (

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { MapContainer, TileLayer, CircleMarker, Tooltip, Popup, Polyline } from 'react-leaflet';
+import { MapContainer, TileLayer, CircleMarker, Tooltip, Popup, Polyline, GeoJSON } from 'react-leaflet';
 import { 
   Activity, 
   ArrowRight, 
@@ -181,12 +181,14 @@ export function HistoricalReplay() {
   const [playing, setPlaying] = useState(false);
   const [validation, setValidation] = useState(false);
   const [rainLayer, setRainLayer] = useState(true);
+  const [dasLayer, setDasLayer] = useState(true);
+  const [dasGeoJson, setDasGeoJson] = useState<any>(null);
   const [vitalLayer, setVitalLayer] = useState(true);
   const [driverFilter, setDriverFilter] = useState<'all' | 'river' | 'coastal'>('all');
   const [expert, setExpert] = useState(false);
   const [selectedId, setSelectedId] = useState('');
 
-  // Fetch replay dataset and vital objects
+  // Fetch replay dataset, vital objects, and DAS boundaries
   useEffect(() => {
     const controller = new AbortController();
     fetch('/api/v1/evidence/replay', { signal: controller.signal })
@@ -204,6 +206,15 @@ export function HistoricalReplay() {
         if (r.ok) {
           const res = await r.json();
           setVitalObjects(res.data || []);
+        }
+      })
+      .catch(() => {});
+
+    fetch('/api/v1/gis/das', { signal: controller.signal })
+      .then(async (r) => {
+        if (r.ok) {
+          const res = await r.json();
+          setDasGeoJson(res.data);
         }
       })
       .catch(() => {});
@@ -599,6 +610,14 @@ export function HistoricalReplay() {
                           <label>
                             <input
                               type="checkbox"
+                              checked={dasLayer}
+                              onChange={(e) => setDasLayer(e.target.checked)}
+                            />
+                            Batas DAS ({dasGeoJson?.features?.length || 15})
+                          </label>
+                          <label>
+                            <input
+                              type="checkbox"
                               checked={vitalLayer}
                               onChange={(e) => setVitalLayer(e.target.checked)}
                             />
@@ -613,6 +632,28 @@ export function HistoricalReplay() {
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                           />
+
+                          {/* Batas DAS Layer */}
+                          {dasLayer && dasGeoJson && (
+                            <GeoJSON
+                              key={`hr-das-${dasGeoJson?.features?.length || 15}`}
+                              data={dasGeoJson}
+                              style={() => ({
+                                color: '#4f46e5',
+                                weight: 1.8,
+                                dashArray: '5, 4',
+                                fillColor: '#818cf8',
+                                fillOpacity: 0.08,
+                              })}
+                              onEachFeature={(feature: any, layer: any) => {
+                                const p = feature.properties || {};
+                                layer.bindTooltip(
+                                  `<strong>🌐 ${p.NAMA_DAS || p.name || 'DAS'}</strong><br/>Luas: ${Number(p.luas_ha || p.Luas || 0).toLocaleString('id-ID')} Ha`,
+                                  { sticky: true }
+                                );
+                              }}
+                            />
+                          )}
 
                           {/* Pos Hujan Layer */}
                           {rainLayer &&
@@ -779,6 +820,12 @@ export function HistoricalReplay() {
                             <span><i className="sitaba" />Laporan PU Sitaba</span>
                             <span><i className="cilicis" />Laporan Cilicis</span>
                           </>
+                        )}
+                        {dasLayer && (
+                          <span>
+                            <i style={{ width: 10, height: 10, display: 'inline-block', border: '1.5px dashed #4f46e5', background: '#e0e7ff', borderRadius: 2 }} />
+                            Batas DAS Catchment
+                          </span>
                         )}
                         {vitalLayer && <span><i className="vital" />Objek Vital (Investasi)</span>}
                         <span><i className="trajectory-line" />Proyeksi Trajectory (+1 s/d +6j)</span>

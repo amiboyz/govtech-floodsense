@@ -18,6 +18,7 @@ import {
   getStationHistory,
   getMonitoringRivers,
   getMonitoringThiessen,
+  getMonitoringDas,
   getMonitoringTransit,
   evaluateLocation,
 } from "./services/monitoring.js";
@@ -172,6 +173,15 @@ app.get('/api/v1/monitoring/thiessen', async (_req, res) => {
   }
 });
 
+app.get('/api/v1/monitoring/das', async (_req, res) => {
+  try {
+    const dasCollection = await getMonitoringDas();
+    return res.json({ data: dasCollection, meta: { count: dasCollection.features.length, status: 'ok' } });
+  } catch (err: any) {
+    return res.status(500).json({ error: { code: 'MONITORING_DAS_ERROR', message: err.message } });
+  }
+});
+
 app.get('/api/v1/monitoring/transit', async (req, res) => {
   try {
     const mode = typeof req.query.mode === 'string' ? req.query.mode : undefined;
@@ -212,8 +222,8 @@ app.get('/api/v1/evidence/case-study', async (_req, res) => {
 
 app.get('/api/v1/gis/das', async (_req, res) => {
   try {
-    const dasGeoJson = JSON.parse(await fs.readFile(path.resolve('docs/data_gis/das_cilicis.json'), 'utf8'));
-    return res.json({ data: dasGeoJson, meta: { count: dasGeoJson.features?.length || 0 } });
+    const dasCollection = await getMonitoringDas();
+    return res.json({ data: dasCollection, meta: { count: dasCollection.features?.length || 0 } });
   } catch (error) {
     return res.status(500).json({ error: { code: 'GIS_NOT_FOUND', message: 'Gagal memuat data GIS DAS.' } });
   }

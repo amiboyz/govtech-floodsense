@@ -2457,6 +2457,100 @@ export async function getMonitoringThiessen(): Promise<ThiessenFeatureCollection
   }
 }
 
+export type DasFeature = {
+  type: 'Feature';
+  geometry: any;
+  properties: {
+    AREA?: number;
+    PERIMETER?: number;
+    KODE?: string;
+    kode?: string;
+    NAMA_DAS: string;
+    name?: string;
+    WS?: string;
+    Luas?: number;
+    luas_ha?: number;
+    ch_stations?: number;
+    tma_stations?: number;
+    flood_reports?: number;
+    experiments_count?: number;
+    das_id?: string;
+  };
+};
+
+export type DasFeatureCollection = {
+  type: 'FeatureCollection';
+  features: DasFeature[];
+  summary?: {
+    total_das: number;
+    total_area_ha: number;
+  };
+};
+
+let cachedDas: DasFeatureCollection | null = null;
+
+export async function getMonitoringDas(): Promise<DasFeatureCollection> {
+  if (cachedDas) return cachedDas;
+  try {
+    const raw = await fs.readFile(path.resolve('docs/data_gis/das_cilicis.json'), 'utf8');
+    const geo = JSON.parse(raw);
+
+    const dasSummaryMap = new Map<string, any>();
+    try {
+      const studyFilePath = path.resolve('analysis/results/das-study.json');
+      const studyRaw = await fs.readFile(studyFilePath, 'utf8');
+      const studyData = JSON.parse(studyRaw);
+      if (Array.isArray(studyData.das_summary)) {
+        for (const item of studyData.das_summary) {
+          if (item.name) {
+            dasSummaryMap.set(item.name.toLowerCase().trim(), item);
+          }
+        }
+      }
+    } catch {
+      // study file optional
+    }
+
+    let totalAreaHa = 0;
+    const enrichedFeatures: DasFeature[] = (geo.features || []).map((feat: any) => {
+      const p = feat.properties || {};
+      const dasName = p.NAMA_DAS || '';
+      const summaryItem = dasSummaryMap.get(dasName.toLowerCase().trim());
+      const luasHa = summaryItem?.luas_ha ?? p.Luas ?? (p.AREA ? p.AREA / 10000 : 0);
+      totalAreaHa += Number(luasHa) || 0;
+
+      return {
+        ...feat,
+        properties: {
+          ...p,
+          NAMA_DAS: dasName,
+          name: dasName,
+          kode: p.KODE || summaryItem?.kode,
+          luas_ha: luasHa,
+          ch_stations: summaryItem?.ch_stations ?? 0,
+          tma_stations: summaryItem?.tma_stations ?? 0,
+          flood_reports: summaryItem?.flood_reports ?? 0,
+          experiments_count: summaryItem?.experiments_count ?? 0,
+          das_id: summaryItem?.das_id,
+        },
+      };
+    });
+
+    cachedDas = {
+      type: 'FeatureCollection',
+      features: enrichedFeatures,
+      summary: {
+        total_das: enrichedFeatures.length,
+        total_area_ha: Math.round(totalAreaHa),
+      },
+    };
+    return cachedDas;
+  } catch (err) {
+    console.warn('Could not load DAS GeoJSON:', err);
+    return { type: 'FeatureCollection', features: [] };
+  }
+}
+
 export async function evaluateLocation(lat: number, lng: number): Promise<LocationEvaluation> {
   await loadData();
   if (!cachedRivers) {

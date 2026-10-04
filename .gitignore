@@ -10,4 +10,7 @@ output/
 *.log
 *.tsbuildinfo
 .codex-finalizer/
-
+database/backups/
+*.sql
+*.sql.gz
+~$*

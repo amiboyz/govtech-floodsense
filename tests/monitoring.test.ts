@@ -13,6 +13,7 @@ import {
   getStationHistory,
   getMonitoringRivers,
   getMonitoringThiessen,
+  getMonitoringDas,
   getMonitoringTransit,
   evaluateLocation,
 } from '../server/services/monitoring.js';
@@ -253,6 +254,22 @@ test('public transit proximity evaluates TOD tier, grade-separated rail immunity
   assert.ok(projects[0].transit_proximity.nearest_station.name);
   assert.ok(projects[0].financial_exposure);
   assert.ok(Number.isFinite(projects[0].financial_exposure.net_downtime_days));
+});
+
+test('das monitoring returns 15 natural hydrological catchment boundaries with station statistics', async () => {
+  const dasCollection = await getMonitoringDas();
+  assert.equal(dasCollection.type, 'FeatureCollection');
+  assert.equal(dasCollection.features.length, 15);
+  assert.ok(dasCollection.summary);
+  assert.equal(dasCollection.summary.total_das, 15);
+  assert.ok(dasCollection.summary.total_area_ha > 0);
+
+  const ciliwung = dasCollection.features.find((f) => f.properties.NAMA_DAS === 'Das Ciliwung');
+  assert.ok(ciliwung);
+  assert.equal(ciliwung.properties.kode, '011');
+  assert.ok(ciliwung.properties.luas_ha && ciliwung.properties.luas_ha > 40000);
+  assert.ok(typeof ciliwung.properties.ch_stations === 'number');
+  assert.ok(typeof ciliwung.properties.tma_stations === 'number');
 });
 
 test.after(async () => {
